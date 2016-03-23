@@ -1,0 +1,1868 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'mocha',
+1 verbose cli   'chai',
+1 verbose cli   '--save-dev' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.30
+4 verbose cache add [ 'mocha', null ]
+5 verbose cache add name=undefined spec="mocha" args=["mocha",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'mocha',
+6 verbose parsed url   path: 'mocha',
+6 verbose parsed url   href: 'mocha' }
+7 verbose cache add [ 'chai', null ]
+8 verbose cache add name=undefined spec="chai" args=["chai",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'chai',
+9 verbose parsed url   path: 'chai',
+9 verbose parsed url   href: 'chai' }
+10 silly lockFile a619da43-mocha mocha
+11 verbose lock mocha /Users/javiersolis/.npm/a619da43-mocha.lock
+12 silly lockFile 353fd541-chai chai
+13 verbose lock chai /Users/javiersolis/.npm/353fd541-chai.lock
+14 silly lockFile a619da43-mocha mocha
+15 silly lockFile a619da43-mocha mocha
+16 silly lockFile 353fd541-chai chai
+17 silly lockFile 353fd541-chai chai
+18 verbose addNamed [ 'mocha', '' ]
+19 verbose addNamed [ null, '*' ]
+20 silly lockFile b9899f31-mocha mocha@
+21 verbose lock mocha@ /Users/javiersolis/.npm/b9899f31-mocha.lock
+22 verbose addNamed [ 'chai', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile 583c5f63-chai chai@
+25 verbose lock chai@ /Users/javiersolis/.npm/583c5f63-chai.lock
+26 silly addNameRange { name: 'mocha', range: '*', hasData: false }
+27 verbose request where is /mocha
+28 verbose request registry https://registry.npmjs.org/
+29 verbose request id 47398c6cab32cf85
+30 verbose url raw /mocha
+31 verbose url resolving [ 'https://registry.npmjs.org/', './mocha' ]
+32 verbose url resolved https://registry.npmjs.org/mocha
+33 verbose request where is https://registry.npmjs.org/mocha
+34 info trying registry request attempt 1 at 16:41:28
+35 http GET https://registry.npmjs.org/mocha
+36 silly addNameRange { name: 'chai', range: '*', hasData: false }
+37 verbose request where is /chai
+38 verbose request registry https://registry.npmjs.org/
+39 verbose url raw /chai
+40 verbose url resolving [ 'https://registry.npmjs.org/', './chai' ]
+41 verbose url resolved https://registry.npmjs.org/chai
+42 verbose request where is https://registry.npmjs.org/chai
+43 info trying registry request attempt 1 at 16:41:28
+44 http GET https://registry.npmjs.org/chai
+45 http 200 https://registry.npmjs.org/chai
+46 silly registry.get cb [ 200,
+46 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+46 silly registry.get     etag: '"4J8C1X65X9FWN18QVLZV3RXNP"',
+46 silly registry.get     'content-type': 'application/json',
+46 silly registry.get     'cache-control': 'max-age=300',
+46 silly registry.get     'content-length': '86744',
+46 silly registry.get     'accept-ranges': 'bytes',
+46 silly registry.get     date: 'Wed, 23 Mar 2016 22:41:29 GMT',
+46 silly registry.get     via: '1.1 varnish',
+46 silly registry.get     age: '4',
+46 silly registry.get     connection: 'keep-alive',
+46 silly registry.get     'x-served-by': 'cache-ord1747-ORD',
+46 silly registry.get     'x-cache': 'HIT',
+46 silly registry.get     'x-cache-hits': '1',
+46 silly registry.get     'x-timer': 'S1458772889.393270,VS0,VE0',
+46 silly registry.get     vary: 'Accept' } ]
+47 silly addNameRange number 2 { name: 'chai', range: '*', hasData: true }
+48 silly addNameRange versions [ 'chai',
+48 silly addNameRange   [ '0.0.1',
+48 silly addNameRange     '0.0.2',
+48 silly addNameRange     '0.1.0',
+48 silly addNameRange     '0.1.1',
+48 silly addNameRange     '0.1.2',
+48 silly addNameRange     '0.1.3',
+48 silly addNameRange     '0.1.4',
+48 silly addNameRange     '0.1.5',
+48 silly addNameRange     '0.1.6',
+48 silly addNameRange     '0.1.7',
+48 silly addNameRange     '0.2.0',
+48 silly addNameRange     '0.2.1',
+48 silly addNameRange     '0.2.2',
+48 silly addNameRange     '0.2.3',
+48 silly addNameRange     '0.2.4',
+48 silly addNameRange     '0.3.0',
+48 silly addNameRange     '0.3.1',
+48 silly addNameRange     '0.3.2',
+48 silly addNameRange     '0.3.3',
+48 silly addNameRange     '0.3.4',
+48 silly addNameRange     '0.4.0',
+48 silly addNameRange     '0.4.1',
+48 silly addNameRange     '0.4.2',
+48 silly addNameRange     '0.5.0',
+48 silly addNameRange     '0.5.1',
+48 silly addNameRange     '0.5.2',
+48 silly addNameRange     '0.5.3',
+48 silly addNameRange     '1.0.0',
+48 silly addNameRange     '1.0.1',
+48 silly addNameRange     '1.0.2',
+48 silly addNameRange     '1.0.3',
+48 silly addNameRange     '1.0.4',
+48 silly addNameRange     '1.1.0',
+48 silly addNameRange     '1.1.1',
+48 silly addNameRange     '1.2.0',
+48 silly addNameRange     '1.3.0',
+48 silly addNameRange     '1.4.0',
+48 silly addNameRange     '1.4.1',
+48 silly addNameRange     '1.4.2',
+48 silly addNameRange     '1.5.0',
+48 silly addNameRange     '1.6.0',
+48 silly addNameRange     '1.6.1',
+48 silly addNameRange     '1.7.0',
+48 silly addNameRange     '1.7.1',
+48 silly addNameRange     '1.7.2',
+48 silly addNameRange     '1.8.0',
+48 silly addNameRange     '1.8.1',
+48 silly addNameRange     '1.9.0',
+48 silly addNameRange     '1.9.1',
+48 silly addNameRange     '1.9.2',
+48 silly addNameRange     '1.10.0',
+48 silly addNameRange     '2.0.0',
+48 silly addNameRange     '2.1.0',
+48 silly addNameRange     '2.1.1',
+48 silly addNameRange     '2.1.2',
+48 silly addNameRange     '2.2.0',
+48 silly addNameRange     '2.3.0',
+48 silly addNameRange     '3.0.0',
+48 silly addNameRange     '3.1.0',
+48 silly addNameRange     '3.2.0',
+48 silly addNameRange     '3.3.0',
+48 silly addNameRange     '3.4.0',
+48 silly addNameRange     '3.4.1',
+48 silly addNameRange     '3.5.0' ] ]
+49 verbose addNamed [ 'chai', '3.5.0' ]
+50 verbose addNamed [ '3.5.0', '3.5.0' ]
+51 silly lockFile e20a0303-chai-3-5-0 chai@3.5.0
+52 verbose lock chai@3.5.0 /Users/javiersolis/.npm/e20a0303-chai-3-5-0.lock
+53 silly lockFile 11830668-ry-npmjs-org-chai-chai-3-5-0-tgz https://registry.npmjs.org/chai/-/chai-3.5.0.tgz
+54 verbose lock https://registry.npmjs.org/chai/-/chai-3.5.0.tgz /Users/javiersolis/.npm/11830668-ry-npmjs-org-chai-chai-3-5-0-tgz.lock
+55 verbose addRemoteTarball [ 'https://registry.npmjs.org/chai/-/chai-3.5.0.tgz',
+55 verbose addRemoteTarball   '4d02637b067fe958bdbfdd3a40ec56fef7373247' ]
+56 info retry fetch attempt 1 at 16:41:29
+57 verbose fetch to= /var/folders/jn/jwly3_110js_sqqrmfgqqrd00000gp/T/npm-5232-Q6Ag6YdY/registry.npmjs.org/chai/-/chai-3.5.0.tgz
+58 http GET https://registry.npmjs.org/chai/-/chai-3.5.0.tgz
+59 http 200 https://registry.npmjs.org/mocha
+60 silly registry.get cb [ 200,
+60 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+60 silly registry.get     etag: '"4CGFARPRHC8N27F8ZZMPCTUJ0"',
+60 silly registry.get     'content-type': 'application/json',
+60 silly registry.get     'cache-control': 'max-age=300',
+60 silly registry.get     'content-length': '282162',
+60 silly registry.get     'accept-ranges': 'bytes',
+60 silly registry.get     date: 'Wed, 23 Mar 2016 22:41:29 GMT',
+60 silly registry.get     via: '1.1 varnish',
+60 silly registry.get     age: '13',
+60 silly registry.get     connection: 'keep-alive',
+60 silly registry.get     'x-served-by': 'cache-ord1746-ORD',
+60 silly registry.get     'x-cache': 'HIT',
+60 silly registry.get     'x-cache-hits': '1',
+60 silly registry.get     'x-timer': 'S1458772889.394772,VS0,VE1',
+60 silly registry.get     vary: 'Accept' } ]
+61 silly addNameRange number 2 { name: 'mocha', range: '*', hasData: true }
+62 silly addNameRange versions [ 'mocha',
+62 silly addNameRange   [ '0.0.1-alpha1',
+62 silly addNameRange     '0.0.1-alpha2',
+62 silly addNameRange     '0.0.1-alpha3',
+62 silly addNameRange     '0.0.1-alpha4',
+62 silly addNameRange     '0.0.1-alpha5',
+62 silly addNameRange     '0.0.1-alpha6',
+62 silly addNameRange     '0.0.1',
+62 silly addNameRange     '0.0.2',
+62 silly addNameRange     '0.0.3',
+62 silly addNameRange     '0.0.4',
+62 silly addNameRange     '0.0.5',
+62 silly addNameRange     '0.0.6',
+62 silly addNameRange     '0.0.7',
+62 silly addNameRange     '0.0.8',
+62 silly addNameRange     '0.1.0',
+62 silly addNameRange     '0.2.0',
+62 silly addNameRange     '0.3.0',
+62 silly addNameRange     '0.3.1',
+62 silly addNameRange     '0.3.2',
+62 silly addNameRange     '0.3.3',
+62 silly addNameRange     '0.3.4',
+62 silly addNameRange     '0.3.6',
+62 silly addNameRange     '0.4.0',
+62 silly addNameRange     '0.5.0',
+62 silly addNameRange     '0.6.0',
+62 silly addNameRange     '0.7.0',
+62 silly addNameRange     '0.7.1',
+62 silly addNameRange     '0.8.0',
+62 silly addNameRange     '0.8.1',
+62 silly addNameRange     '0.9.0',
+62 silly addNameRange     '0.10.0',
+62 silly addNameRange     '0.10.1',
+62 silly addNameRange     '0.10.2',
+62 silly addNameRange     '0.11.0',
+62 silly addNameRange     '0.12.0',
+62 silly addNameRange     '0.12.1',
+62 silly addNameRange     '0.13.0',
+62 silly addNameRange     '0.14.0',
+62 silly addNameRange     '0.14.1',
+62 silly addNameRange     '1.0.0',
+62 silly addNameRange     '1.0.1',
+62 silly addNameRange     '1.0.2',
+62 silly addNameRange     '1.0.3',
+62 silly addNameRange     '1.1.0',
+62 silly addNameRange     '1.2.0',
+62 silly addNameRange     '1.2.1',
+62 silly addNameRange     '1.2.2',
+62 silly addNameRange     '1.3.0',
+62 silly addNameRange     '1.3.1',
+62 silly addNameRange     '1.3.2',
+62 silly addNameRange     '1.4.0',
+62 silly addNameRange     '1.4.1',
+62 silly addNameRange     '1.4.2',
+62 silly addNameRange     '1.4.3',
+62 silly addNameRange     '1.5.0',
+62 silly addNameRange     '1.6.0',
+62 silly addNameRange     '1.7.0',
+62 silly addNameRange     '1.7.1',
+62 silly addNameRange     '1.7.2',
+62 silly addNameRange     '1.7.3',
+62 silly addNameRange     '1.7.4',
+62 silly addNameRange     '1.8.0',
+62 silly addNameRange     '1.8.1',
+62 silly addNameRange     '1.8.2',
+62 silly addNameRange     '1.9.0',
+62 silly addNameRange     '1.10.0',
+62 silly addNameRange     '1.11.0',
+62 silly addNameRange     '1.12.0',
+62 silly addNameRange     '1.12.1',
+62 silly addNameRange     '1.13.0',
+62 silly addNameRange     '1.14.0',
+62 silly addNameRange     '1.15.0',
+62 silly addNameRange     '1.15.1',
+62 silly addNameRange     '1.16.0',
+62 silly addNameRange     '1.16.1',
+62 silly addNameRange     '1.16.2',
+62 silly addNameRange     '1.17.0',
+62 silly addNameRange     '1.17.1',
+62 silly addNameRange     '1.18.0',
+62 silly addNameRange     '1.18.1',
+62 silly addNameRange     '1.18.2',
+62 silly addNameRange     '1.19.0',
+62 silly addNameRange     '1.20.0',
+62 silly addNameRange     '1.20.1',
+62 silly addNameRange     '1.21.0',
+62 silly addNameRange     '1.21.1',
+62 silly addNameRange     '1.21.2',
+62 silly addNameRange     '1.21.3',
+62 silly addNameRange     '1.21.4',
+62 silly addNameRange     '1.21.5',
+62 silly addNameRange     '2.0.0',
+62 silly addNameRange     '2.0.1',
+62 silly addNameRange     '2.1.0',
+62 silly addNameRange     '2.2.0',
+62 silly addNameRange     '2.2.1',
+62 silly addNameRange     '2.2.3',
+62 silly addNameRange     '2.2.4',
+62 silly addNameRange     '2.2.5',
+62 silly addNameRange     '2.3.0',
+62 silly addNameRange     '2.3.1',
+62 silly addNameRange     '2.3.2',
+62 silly addNameRange     '2.3.3',
+62 silly addNameRange     '2.3.4',
+62 silly addNameRange     '2.4.1',
+62 silly addNameRange     '2.4.2',
+62 silly addNameRange     '2.4.3',
+62 silly addNameRange     '2.4.4',
+62 silly addNameRange     '2.4.5' ] ]
+63 verbose addNamed [ 'mocha', '2.4.5' ]
+64 verbose addNamed [ '2.4.5', '2.4.5' ]
+65 silly lockFile 07a1fe27-mocha-2-4-5 mocha@2.4.5
+66 verbose lock mocha@2.4.5 /Users/javiersolis/.npm/07a1fe27-mocha-2-4-5.lock
+67 silly lockFile 6e3af4c5--npmjs-org-mocha-mocha-2-4-5-tgz https://registry.npmjs.org/mocha/-/mocha-2.4.5.tgz
+68 verbose lock https://registry.npmjs.org/mocha/-/mocha-2.4.5.tgz /Users/javiersolis/.npm/6e3af4c5--npmjs-org-mocha-mocha-2-4-5-tgz.lock
+69 verbose addRemoteTarball [ 'https://registry.npmjs.org/mocha/-/mocha-2.4.5.tgz',
+69 verbose addRemoteTarball   '151768dd2875eb51bc8295e9800026e9f2bb398f' ]
+70 info retry fetch attempt 1 at 16:41:29
+71 verbose fetch to= /var/folders/jn/jwly3_110js_sqqrmfgqqrd00000gp/T/npm-5232-Q6Ag6YdY/registry.npmjs.org/mocha/-/mocha-2.4.5.tgz
+72 http GET https://registry.npmjs.org/mocha/-/mocha-2.4.5.tgz
+73 http 200 https://registry.npmjs.org/chai/-/chai-3.5.0.tgz
+74 silly lockFile 11830668-ry-npmjs-org-chai-chai-3-5-0-tgz https://registry.npmjs.org/chai/-/chai-3.5.0.tgz
+75 silly lockFile 11830668-ry-npmjs-org-chai-chai-3-5-0-tgz https://registry.npmjs.org/chai/-/chai-3.5.0.tgz
+76 silly lockFile e20a0303-chai-3-5-0 chai@3.5.0
+77 silly lockFile e20a0303-chai-3-5-0 chai@3.5.0
+78 silly lockFile 583c5f63-chai chai@
+79 silly lockFile 583c5f63-chai chai@
+80 http 200 https://registry.npmjs.org/mocha/-/mocha-2.4.5.tgz
+81 silly lockFile 6e3af4c5--npmjs-org-mocha-mocha-2-4-5-tgz https://registry.npmjs.org/mocha/-/mocha-2.4.5.tgz
+82 silly lockFile 6e3af4c5--npmjs-org-mocha-mocha-2-4-5-tgz https://registry.npmjs.org/mocha/-/mocha-2.4.5.tgz
+83 silly lockFile 07a1fe27-mocha-2-4-5 mocha@2.4.5
+84 silly lockFile 07a1fe27-mocha-2-4-5 mocha@2.4.5
+85 silly lockFile b9899f31-mocha mocha@
+86 silly lockFile b9899f31-mocha mocha@
+87 silly resolved [ { author: { name: 'Jake Luer', email: 'jake@alogicalparadox.com' },
+87 silly resolved     name: 'chai',
+87 silly resolved     description: 'BDD/TDD assertion library for node.js and the browser. Test framework agnostic.',
+87 silly resolved     keywords: [ 'test', 'assertion', 'assert', 'testing', 'chai' ],
+87 silly resolved     homepage: 'http://chaijs.com',
+87 silly resolved     license: 'MIT',
+87 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+87 silly resolved     version: '3.5.0',
+87 silly resolved     repository: { type: 'git', url: 'git+https://github.com/chaijs/chai.git' },
+87 silly resolved     bugs: { url: 'https://github.com/chaijs/chai/issues' },
+87 silly resolved     main: './index',
+87 silly resolved     scripts: { test: 'make test' },
+87 silly resolved     engines: { node: '>= 0.4.0' },
+87 silly resolved     dependencies:
+87 silly resolved      { 'assertion-error': '^1.0.1',
+87 silly resolved        'deep-eql': '^0.1.3',
+87 silly resolved        'type-detect': '^1.0.0' },
+87 silly resolved     devDependencies:
+87 silly resolved      { browserify: '^10.2.1',
+87 silly resolved        'bump-cli': '^1.1.3',
+87 silly resolved        karma: '^0.13.16',
+87 silly resolved        'karma-mocha': '^0.1.10',
+87 silly resolved        'karma-sauce-launcher': '^0.2.11',
+87 silly resolved        'karma-phantomjs-launcher': '^0.2.0',
+87 silly resolved        'karma-firefox-launcher': '^0.1.6',
+87 silly resolved        mocha: '^2.2.5',
+87 silly resolved        istanbul: '^0.3.14' },
+87 silly resolved     gitHead: '4ca0218391cf947c6cfac2d1a7424a63a4b4c232',
+87 silly resolved     _id: 'chai@3.5.0',
+87 silly resolved     _shasum: '4d02637b067fe958bdbfdd3a40ec56fef7373247',
+87 silly resolved     _from: 'chai@',
+87 silly resolved     _npmVersion: '3.3.12',
+87 silly resolved     _nodeVersion: '5.5.0',
+87 silly resolved     _npmUser: { name: 'chaijs', email: 'chaijs@keithcirkel.co.uk' },
+87 silly resolved     dist:
+87 silly resolved      { shasum: '4d02637b067fe958bdbfdd3a40ec56fef7373247',
+87 silly resolved        tarball: 'http://registry.npmjs.org/chai/-/chai-3.5.0.tgz' },
+87 silly resolved     maintainers: [ [Object], [Object] ],
+87 silly resolved     directories: {},
+87 silly resolved     _resolved: 'https://registry.npmjs.org/chai/-/chai-3.5.0.tgz' },
+87 silly resolved   { name: 'mocha',
+87 silly resolved     version: '2.4.5',
+87 silly resolved     description: 'simple, flexible, fun test framework',
+87 silly resolved     keywords: [ 'mocha', 'test', 'bdd', 'tdd', 'tap' ],
+87 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+87 silly resolved     contributors:
+87 silly resolved      [ [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object],
+87 silly resolved        [Object] ],
+87 silly resolved     license: 'MIT',
+87 silly resolved     repository: { type: 'git', url: 'git://github.com/mochajs/mocha.git' },
+87 silly resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+87 silly resolved     main: './index',
+87 silly resolved     bin: { mocha: './bin/mocha', _mocha: './bin/_mocha' },
+87 silly resolved     engines: { node: '>= 0.8.x' },
+87 silly resolved     scripts: { test: 'make test-all' },
+87 silly resolved     dependencies:
+87 silly resolved      { commander: '2.3.0',
+87 silly resolved        debug: '2.2.0',
+87 silly resolved        diff: '1.4.0',
+87 silly resolved        'escape-string-regexp': '1.0.2',
+87 silly resolved        glob: '3.2.3',
+87 silly resolved        growl: '1.8.1',
+87 silly resolved        jade: '0.26.3',
+87 silly resolved        mkdirp: '0.5.1',
+87 silly resolved        'supports-color': '1.2.0' },
+87 silly resolved     devDependencies:
+87 silly resolved      { 'browser-stdout': '^1.2.0',
+87 silly resolved        browserify: '10.2.4',
+87 silly resolved        'coffee-script': '~1.8.0',
+87 silly resolved        eslint: '^1.2.1',
+87 silly resolved        should: '~8.0.0',
+87 silly resolved        through2: '~0.6.5' },
+87 silly resolved     files:
+87 silly resolved      [ 'bin',
+87 silly resolved        'images',
+87 silly resolved        'lib',
+87 silly resolved        'index.js',
+87 silly resolved        'mocha.css',
+87 silly resolved        'mocha.js',
+87 silly resolved        'LICENSE' ],
+87 silly resolved     browser:
+87 silly resolved      { debug: './lib/browser/debug.js',
+87 silly resolved        events: './lib/browser/events.js',
+87 silly resolved        tty: './lib/browser/tty.js' },
+87 silly resolved     licenses: [ [Object] ],
+87 silly resolved     gitHead: '2a8594424c73ffeca41ef1668446372160528b4a',
+87 silly resolved     bugs: { url: 'https://github.com/mochajs/mocha/issues' },
+87 silly resolved     homepage: 'https://github.com/mochajs/mocha#readme',
+87 silly resolved     _id: 'mocha@2.4.5',
+87 silly resolved     _shasum: '151768dd2875eb51bc8295e9800026e9f2bb398f',
+87 silly resolved     _from: 'mocha@',
+87 silly resolved     _npmVersion: '3.5.3',
+87 silly resolved     _nodeVersion: '5.5.0',
+87 silly resolved     _npmUser: { name: 'boneskull', email: 'boneskull@boneskull.com' },
+87 silly resolved     dist:
+87 silly resolved      { shasum: '151768dd2875eb51bc8295e9800026e9f2bb398f',
+87 silly resolved        tarball: 'http://registry.npmjs.org/mocha/-/mocha-2.4.5.tgz' },
+87 silly resolved     directories: {},
+87 silly resolved     _resolved: 'https://registry.npmjs.org/mocha/-/mocha-2.4.5.tgz' } ]
+88 info install chai@3.5.0 into /programming/proys/cloudino/server/Cloudino-Node-RED
+89 info install mocha@2.4.5 into /programming/proys/cloudino/server/Cloudino-Node-RED
+90 info installOne chai@3.5.0
+91 info installOne mocha@2.4.5
+92 verbose node_modules/chai unbuild
+93 verbose node_modules/mocha unbuild
+94 verbose tar unpack /Users/javiersolis/.npm/chai/3.5.0/package.tgz
+95 silly lockFile add16709-udino-Node-RED-node-modules-chai tar:///programming/proys/cloudino/server/Cloudino-Node-RED/node_modules/chai
+96 verbose lock tar:///programming/proys/cloudino/server/Cloudino-Node-RED/node_modules/chai /Users/javiersolis/.npm/add16709-udino-Node-RED-node-modules-chai.lock
+97 silly lockFile 67b3b66f-solis-npm-chai-3-5-0-package-tgz tar:///Users/javiersolis/.npm/chai/3.5.0/package.tgz
+98 verbose lock tar:///Users/javiersolis/.npm/chai/3.5.0/package.tgz /Users/javiersolis/.npm/67b3b66f-solis-npm-chai-3-5-0-package-tgz.lock
+99 verbose tar unpack /Users/javiersolis/.npm/mocha/2.4.5/package.tgz
+100 silly lockFile b6fa9f7e-dino-Node-RED-node-modules-mocha tar:///programming/proys/cloudino/server/Cloudino-Node-RED/node_modules/mocha
+101 verbose lock tar:///programming/proys/cloudino/server/Cloudino-Node-RED/node_modules/mocha /Users/javiersolis/.npm/b6fa9f7e-dino-Node-RED-node-modules-mocha.lock
+102 silly lockFile 1520fb36-olis-npm-mocha-2-4-5-package-tgz tar:///Users/javiersolis/.npm/mocha/2.4.5/package.tgz
+103 verbose lock tar:///Users/javiersolis/.npm/mocha/2.4.5/package.tgz /Users/javiersolis/.npm/1520fb36-olis-npm-mocha-2-4-5-package-tgz.lock
+104 silly gunzTarPerm modes [ '755', '644' ]
+105 silly gunzTarPerm modes [ '755', '644' ]
+106 silly gunzTarPerm extractEntry package.json
+107 silly gunzTarPerm extractEntry package.json
+108 silly gunzTarPerm extractEntry .npmignore
+109 silly gunzTarPerm extractEntry README.md
+110 silly gunzTarPerm extractEntry README.md
+111 silly gunzTarPerm extractEntry LICENSE
+112 silly gunzTarPerm extractEntry chai.js
+113 silly gunzTarPerm extractEntry index.js
+114 silly gunzTarPerm extractEntry karma.conf.js
+115 silly gunzTarPerm extractEntry karma.sauce.js
+116 silly gunzTarPerm extractEntry index.js
+117 silly gunzTarPerm extractEntry sauce.browsers.js
+118 silly gunzTarPerm extractEntry ReleaseNotes.md
+119 silly gunzTarPerm extractEntry mocha.js
+120 silly gunzTarPerm extractEntry CHANGELOG.md
+121 silly gunzTarPerm extractEntry bin/options.js
+122 silly gunzTarPerm extractEntry bin/.eslintrc
+123 silly gunzTarPerm extractEntry bin/_mocha
+124 silly gunzTarPerm extractEntry bower.json
+125 silly gunzTarPerm extractEntry CODE_OF_CONDUCT.md
+126 silly gunzTarPerm extractEntry CONTRIBUTING.md
+127 silly gunzTarPerm extractEntry lib/chai.js
+128 silly gunzTarPerm extractEntry lib/chai/assertion.js
+129 silly gunzTarPerm extractEntry lib/chai/config.js
+130 silly gunzTarPerm extractEntry lib/chai/core/assertions.js
+131 silly gunzTarPerm extractEntry lib/chai/interface/assert.js
+132 silly gunzTarPerm extractEntry lib/chai/interface/expect.js
+133 silly gunzTarPerm extractEntry lib/chai/interface/should.js
+134 silly gunzTarPerm extractEntry lib/chai/utils/addChainableMethod.js
+135 silly gunzTarPerm extractEntry lib/chai/utils/getMessage.js
+136 silly gunzTarPerm extractEntry lib/chai/utils/getName.js
+137 silly gunzTarPerm extractEntry lib/chai/utils/getPathInfo.js
+138 silly gunzTarPerm extractEntry lib/chai/utils/getEnumerableProperties.js
+139 silly gunzTarPerm extractEntry lib/chai/utils/getProperties.js
+140 silly gunzTarPerm extractEntry lib/chai/utils/hasProperty.js
+141 silly gunzTarPerm extractEntry lib/chai/utils/index.js
+142 silly gunzTarPerm extractEntry lib/chai/utils/inspect.js
+143 silly gunzTarPerm extractEntry lib/chai/utils/objDisplay.js
+144 silly gunzTarPerm extractEntry lib/chai/utils/getActual.js
+145 silly gunzTarPerm extractEntry lib/chai/utils/overwriteChainableMethod.js
+146 silly gunzTarPerm extractEntry lib/chai/utils/flag.js
+147 silly gunzTarPerm extractEntry lib/chai/utils/overwriteMethod.js
+148 silly gunzTarPerm extractEntry lib/chai/utils/expectTypes.js
+149 silly gunzTarPerm extractEntry lib/chai/utils/overwriteProperty.js
+150 silly gunzTarPerm extractEntry lib/chai/utils/addProperty.js
+151 silly gunzTarPerm extractEntry lib/chai/utils/test.js
+152 silly gunzTarPerm extractEntry lib/chai/utils/addMethod.js
+153 silly gunzTarPerm extractEntry lib/chai/utils/transferFlags.js
+154 silly gunzTarPerm extractEntry lib/chai/utils/getPathValue.js
+155 silly gunzTarPerm extractEntry History.md
+156 silly gunzTarPerm extractEntry bin/mocha
+157 silly gunzTarPerm extractEntry images/error.png
+158 silly gunzTarPerm extractEntry images/ok.png
+159 silly gunzTarPerm extractEntry lib/utils.js
+160 silly gunzTarPerm extractEntry lib/hook.js
+161 silly gunzTarPerm extractEntry lib/mocha.js
+162 silly gunzTarPerm extractEntry lib/ms.js
+163 silly gunzTarPerm extractEntry lib/pending.js
+164 silly gunzTarPerm extractEntry lib/context.js
+165 silly gunzTarPerm extractEntry lib/runnable.js
+166 silly gunzTarPerm extractEntry lib/runner.js
+167 silly gunzTarPerm extractEntry lib/suite.js
+168 silly gunzTarPerm extractEntry lib/test.js
+169 silly gunzTarPerm extractEntry lib/browser/debug.js
+170 silly gunzTarPerm extractEntry lib/browser/events.js
+171 silly gunzTarPerm extractEntry lib/browser/progress.js
+172 silly gunzTarPerm extractEntry lib/browser/tty.js
+173 silly gunzTarPerm extractEntry lib/template.html
+174 silly gunzTarPerm extractEntry lib/interfaces/bdd.js
+175 silly gunzTarPerm extractEntry lib/interfaces/common.js
+176 silly gunzTarPerm extractEntry lib/interfaces/exports.js
+177 silly gunzTarPerm extractEntry lib/interfaces/index.js
+178 silly gunzTarPerm extractEntry lib/interfaces/qunit.js
+179 silly gunzTarPerm extractEntry lib/interfaces/tdd.js
+180 silly gunzTarPerm extractEntry lib/reporters/base.js
+181 silly gunzTarPerm extractEntry lib/reporters/index.js
+182 silly gunzTarPerm extractEntry lib/reporters/json-cov.js
+183 silly gunzTarPerm extractEntry lib/reporters/json-stream.js
+184 silly gunzTarPerm extractEntry lib/reporters/json.js
+185 silly gunzTarPerm extractEntry lib/reporters/html.js
+186 silly gunzTarPerm extractEntry lib/reporters/list.js
+187 silly gunzTarPerm extractEntry lib/reporters/markdown.js
+188 silly gunzTarPerm extractEntry lib/reporters/min.js
+189 silly gunzTarPerm extractEntry lib/reporters/nyan.js
+190 silly gunzTarPerm extractEntry lib/reporters/progress.js
+191 silly gunzTarPerm extractEntry lib/reporters/html-cov.js
+192 silly gunzTarPerm extractEntry lib/reporters/spec.js
+193 silly gunzTarPerm extractEntry lib/reporters/dot.js
+194 silly gunzTarPerm extractEntry lib/reporters/tap.js
+195 silly gunzTarPerm extractEntry lib/reporters/doc.js
+196 silly gunzTarPerm extractEntry lib/reporters/xunit.js
+197 silly gunzTarPerm extractEntry lib/reporters/landing.js
+198 silly gunzTarPerm extractEntry lib/reporters/templates/coverage.jade
+199 silly gunzTarPerm extractEntry lib/reporters/templates/menu.jade
+200 silly gunzTarPerm extractEntry lib/reporters/templates/script.html
+201 silly gunzTarPerm extractEntry lib/reporters/templates/style.html
+202 silly gunzTarPerm extractEntry mocha.css
+203 silly lockFile add16709-udino-Node-RED-node-modules-chai tar:///programming/proys/cloudino/server/Cloudino-Node-RED/node_modules/chai
+204 silly lockFile add16709-udino-Node-RED-node-modules-chai tar:///programming/proys/cloudino/server/Cloudino-Node-RED/node_modules/chai
+205 silly lockFile 67b3b66f-solis-npm-chai-3-5-0-package-tgz tar:///Users/javiersolis/.npm/chai/3.5.0/package.tgz
+206 silly lockFile 67b3b66f-solis-npm-chai-3-5-0-package-tgz tar:///Users/javiersolis/.npm/chai/3.5.0/package.tgz
+207 info preinstall chai@3.5.0
+208 verbose readDependencies using package.json deps
+209 verbose readDependencies using package.json deps
+210 verbose cache add [ 'type-detect@^1.0.0', null ]
+211 verbose cache add name=undefined spec="type-detect@^1.0.0" args=["type-detect@^1.0.0",null]
+212 verbose parsed url { protocol: null,
+212 verbose parsed url   slashes: null,
+212 verbose parsed url   auth: null,
+212 verbose parsed url   host: null,
+212 verbose parsed url   port: null,
+212 verbose parsed url   hostname: null,
+212 verbose parsed url   hash: null,
+212 verbose parsed url   search: null,
+212 verbose parsed url   query: null,
+212 verbose parsed url   pathname: 'type-detect@^1.0.0',
+212 verbose parsed url   path: 'type-detect@^1.0.0',
+212 verbose parsed url   href: 'type-detect@^1.0.0' }
+213 verbose cache add name="type-detect" spec="^1.0.0" args=["type-detect","^1.0.0"]
+214 verbose parsed url { protocol: null,
+214 verbose parsed url   slashes: null,
+214 verbose parsed url   auth: null,
+214 verbose parsed url   host: null,
+214 verbose parsed url   port: null,
+214 verbose parsed url   hostname: null,
+214 verbose parsed url   hash: null,
+214 verbose parsed url   search: null,
+214 verbose parsed url   query: null,
+214 verbose parsed url   pathname: '^1.0.0',
+214 verbose parsed url   path: '^1.0.0',
+214 verbose parsed url   href: '^1.0.0' }
+215 verbose addNamed [ 'type-detect', '^1.0.0' ]
+216 verbose addNamed [ null, '>=1.0.0-0 <2.0.0-0' ]
+217 silly lockFile 51104c64-type-detect-1-0-0 type-detect@^1.0.0
+218 verbose lock type-detect@^1.0.0 /Users/javiersolis/.npm/51104c64-type-detect-1-0-0.lock
+219 silly addNameRange { name: 'type-detect',
+219 silly addNameRange   range: '>=1.0.0-0 <2.0.0-0',
+219 silly addNameRange   hasData: false }
+220 verbose request where is /type-detect
+221 verbose request registry https://registry.npmjs.org/
+222 verbose url raw /type-detect
+223 verbose url resolving [ 'https://registry.npmjs.org/', './type-detect' ]
+224 verbose url resolved https://registry.npmjs.org/type-detect
+225 verbose request where is https://registry.npmjs.org/type-detect
+226 info trying registry request attempt 1 at 16:41:30
+227 http GET https://registry.npmjs.org/type-detect
+228 verbose cache add [ 'assertion-error@^1.0.1', null ]
+229 verbose cache add name=undefined spec="assertion-error@^1.0.1" args=["assertion-error@^1.0.1",null]
+230 verbose parsed url { protocol: null,
+230 verbose parsed url   slashes: null,
+230 verbose parsed url   auth: null,
+230 verbose parsed url   host: null,
+230 verbose parsed url   port: null,
+230 verbose parsed url   hostname: null,
+230 verbose parsed url   hash: null,
+230 verbose parsed url   search: null,
+230 verbose parsed url   query: null,
+230 verbose parsed url   pathname: 'assertion-error@^1.0.1',
+230 verbose parsed url   path: 'assertion-error@^1.0.1',
+230 verbose parsed url   href: 'assertion-error@^1.0.1' }
+231 verbose cache add [ 'deep-eql@^0.1.3', null ]
+232 verbose cache add name=undefined spec="deep-eql@^0.1.3" args=["deep-eql@^0.1.3",null]
+233 verbose parsed url { protocol: null,
+233 verbose parsed url   slashes: null,
+233 verbose parsed url   auth: null,
+233 verbose parsed url   host: null,
+233 verbose parsed url   port: null,
+233 verbose parsed url   hostname: null,
+233 verbose parsed url   hash: null,
+233 verbose parsed url   search: null,
+233 verbose parsed url   query: null,
+233 verbose parsed url   pathname: 'deep-eql@^0.1.3',
+233 verbose parsed url   path: 'deep-eql@^0.1.3',
+233 verbose parsed url   href: 'deep-eql@^0.1.3' }
+234 verbose cache add name="assertion-error" spec="^1.0.1" args=["assertion-error","^1.0.1"]
+235 verbose parsed url { protocol: null,
+235 verbose parsed url   slashes: null,
+235 verbose parsed url   auth: null,
+235 verbose parsed url   host: null,
+235 verbose parsed url   port: null,
+235 verbose parsed url   hostname: null,
+235 verbose parsed url   hash: null,
+235 verbose parsed url   search: null,
+235 verbose parsed url   query: null,
+235 verbose parsed url   pathname: '^1.0.1',
+235 verbose parsed url   path: '^1.0.1',
+235 verbose parsed url   href: '^1.0.1' }
+236 verbose addNamed [ 'assertion-error', '^1.0.1' ]
+237 verbose addNamed [ null, '>=1.0.1-0 <2.0.0-0' ]
+238 silly lockFile e5c22c6d-assertion-error-1-0-1 assertion-error@^1.0.1
+239 verbose lock assertion-error@^1.0.1 /Users/javiersolis/.npm/e5c22c6d-assertion-error-1-0-1.lock
+240 verbose cache add name="deep-eql" spec="^0.1.3" args=["deep-eql","^0.1.3"]
+241 verbose parsed url { protocol: null,
+241 verbose parsed url   slashes: null,
+241 verbose parsed url   auth: null,
+241 verbose parsed url   host: null,
+241 verbose parsed url   port: null,
+241 verbose parsed url   hostname: null,
+241 verbose parsed url   hash: null,
+241 verbose parsed url   search: null,
+241 verbose parsed url   query: null,
+241 verbose parsed url   pathname: '^0.1.3',
+241 verbose parsed url   path: '^0.1.3',
+241 verbose parsed url   href: '^0.1.3' }
+242 verbose addNamed [ 'deep-eql', '^0.1.3' ]
+243 verbose addNamed [ null, '>=0.1.3-0 <0.2.0-0' ]
+244 silly lockFile c0c3b032-deep-eql-0-1-3 deep-eql@^0.1.3
+245 verbose lock deep-eql@^0.1.3 /Users/javiersolis/.npm/c0c3b032-deep-eql-0-1-3.lock
+246 silly addNameRange { name: 'assertion-error',
+246 silly addNameRange   range: '>=1.0.1-0 <2.0.0-0',
+246 silly addNameRange   hasData: false }
+247 verbose request where is /assertion-error
+248 verbose request registry https://registry.npmjs.org/
+249 verbose url raw /assertion-error
+250 verbose url resolving [ 'https://registry.npmjs.org/', './assertion-error' ]
+251 verbose url resolved https://registry.npmjs.org/assertion-error
+252 verbose request where is https://registry.npmjs.org/assertion-error
+253 info trying registry request attempt 1 at 16:41:30
+254 http GET https://registry.npmjs.org/assertion-error
+255 silly addNameRange { name: 'deep-eql', range: '>=0.1.3-0 <0.2.0-0', hasData: false }
+256 verbose request where is /deep-eql
+257 verbose request registry https://registry.npmjs.org/
+258 verbose url raw /deep-eql
+259 verbose url resolving [ 'https://registry.npmjs.org/', './deep-eql' ]
+260 verbose url resolved https://registry.npmjs.org/deep-eql
+261 verbose request where is https://registry.npmjs.org/deep-eql
+262 info trying registry request attempt 1 at 16:41:30
+263 http GET https://registry.npmjs.org/deep-eql
+264 silly lockFile b6fa9f7e-dino-Node-RED-node-modules-mocha tar:///programming/proys/cloudino/server/Cloudino-Node-RED/node_modules/mocha
+265 silly lockFile b6fa9f7e-dino-Node-RED-node-modules-mocha tar:///programming/proys/cloudino/server/Cloudino-Node-RED/node_modules/mocha
+266 silly lockFile 1520fb36-olis-npm-mocha-2-4-5-package-tgz tar:///Users/javiersolis/.npm/mocha/2.4.5/package.tgz
+267 silly lockFile 1520fb36-olis-npm-mocha-2-4-5-package-tgz tar:///Users/javiersolis/.npm/mocha/2.4.5/package.tgz
+268 info preinstall mocha@2.4.5
+269 verbose readDependencies using package.json deps
+270 verbose readDependencies using package.json deps
+271 verbose cache add [ 'commander@2.3.0', null ]
+272 verbose cache add name=undefined spec="commander@2.3.0" args=["commander@2.3.0",null]
+273 verbose parsed url { protocol: null,
+273 verbose parsed url   slashes: null,
+273 verbose parsed url   auth: null,
+273 verbose parsed url   host: null,
+273 verbose parsed url   port: null,
+273 verbose parsed url   hostname: null,
+273 verbose parsed url   hash: null,
+273 verbose parsed url   search: null,
+273 verbose parsed url   query: null,
+273 verbose parsed url   pathname: 'commander@2.3.0',
+273 verbose parsed url   path: 'commander@2.3.0',
+273 verbose parsed url   href: 'commander@2.3.0' }
+274 verbose cache add [ 'debug@2.2.0', null ]
+275 verbose cache add name=undefined spec="debug@2.2.0" args=["debug@2.2.0",null]
+276 verbose parsed url { protocol: null,
+276 verbose parsed url   slashes: null,
+276 verbose parsed url   auth: null,
+276 verbose parsed url   host: null,
+276 verbose parsed url   port: null,
+276 verbose parsed url   hostname: null,
+276 verbose parsed url   hash: null,
+276 verbose parsed url   search: null,
+276 verbose parsed url   query: null,
+276 verbose parsed url   pathname: 'debug@2.2.0',
+276 verbose parsed url   path: 'debug@2.2.0',
+276 verbose parsed url   href: 'debug@2.2.0' }
+277 verbose cache add name="commander" spec="2.3.0" args=["commander","2.3.0"]
+278 verbose parsed url { protocol: null,
+278 verbose parsed url   slashes: null,
+278 verbose parsed url   auth: null,
+278 verbose parsed url   host: null,
+278 verbose parsed url   port: null,
+278 verbose parsed url   hostname: null,
+278 verbose parsed url   hash: null,
+278 verbose parsed url   search: null,
+278 verbose parsed url   query: null,
+278 verbose parsed url   pathname: '2.3.0',
+278 verbose parsed url   path: '2.3.0',
+278 verbose parsed url   href: '2.3.0' }
+279 verbose addNamed [ 'commander', '2.3.0' ]
+280 verbose addNamed [ '2.3.0', '2.3.0' ]
+281 silly lockFile 14f83df2-commander-2-3-0 commander@2.3.0
+282 verbose lock commander@2.3.0 /Users/javiersolis/.npm/14f83df2-commander-2-3-0.lock
+283 verbose cache add name="debug" spec="2.2.0" args=["debug","2.2.0"]
+284 verbose parsed url { protocol: null,
+284 verbose parsed url   slashes: null,
+284 verbose parsed url   auth: null,
+284 verbose parsed url   host: null,
+284 verbose parsed url   port: null,
+284 verbose parsed url   hostname: null,
+284 verbose parsed url   hash: null,
+284 verbose parsed url   search: null,
+284 verbose parsed url   query: null,
+284 verbose parsed url   pathname: '2.2.0',
+284 verbose parsed url   path: '2.2.0',
+284 verbose parsed url   href: '2.2.0' }
+285 verbose addNamed [ 'debug', '2.2.0' ]
+286 verbose addNamed [ '2.2.0', '2.2.0' ]
+287 silly lockFile 82f99b48-debug-2-2-0 debug@2.2.0
+288 verbose lock debug@2.2.0 /Users/javiersolis/.npm/82f99b48-debug-2-2-0.lock
+289 verbose cache add [ 'diff@1.4.0', null ]
+290 verbose cache add name=undefined spec="diff@1.4.0" args=["diff@1.4.0",null]
+291 verbose parsed url { protocol: null,
+291 verbose parsed url   slashes: null,
+291 verbose parsed url   auth: null,
+291 verbose parsed url   host: null,
+291 verbose parsed url   port: null,
+291 verbose parsed url   hostname: null,
+291 verbose parsed url   hash: null,
+291 verbose parsed url   search: null,
+291 verbose parsed url   query: null,
+291 verbose parsed url   pathname: 'diff@1.4.0',
+291 verbose parsed url   path: 'diff@1.4.0',
+291 verbose parsed url   href: 'diff@1.4.0' }
+292 verbose cache add name="diff" spec="1.4.0" args=["diff","1.4.0"]
+293 verbose parsed url { protocol: null,
+293 verbose parsed url   slashes: null,
+293 verbose parsed url   auth: null,
+293 verbose parsed url   host: null,
+293 verbose parsed url   port: null,
+293 verbose parsed url   hostname: null,
+293 verbose parsed url   hash: null,
+293 verbose parsed url   search: null,
+293 verbose parsed url   query: null,
+293 verbose parsed url   pathname: '1.4.0',
+293 verbose parsed url   path: '1.4.0',
+293 verbose parsed url   href: '1.4.0' }
+294 verbose addNamed [ 'diff', '1.4.0' ]
+295 verbose addNamed [ '1.4.0', '1.4.0' ]
+296 silly lockFile ab0dba8e-diff-1-4-0 diff@1.4.0
+297 verbose lock diff@1.4.0 /Users/javiersolis/.npm/ab0dba8e-diff-1-4-0.lock
+298 verbose cache add [ 'escape-string-regexp@1.0.2', null ]
+299 verbose cache add name=undefined spec="escape-string-regexp@1.0.2" args=["escape-string-regexp@1.0.2",null]
+300 verbose parsed url { protocol: null,
+300 verbose parsed url   slashes: null,
+300 verbose parsed url   auth: null,
+300 verbose parsed url   host: null,
+300 verbose parsed url   port: null,
+300 verbose parsed url   hostname: null,
+300 verbose parsed url   hash: null,
+300 verbose parsed url   search: null,
+300 verbose parsed url   query: null,
+300 verbose parsed url   pathname: 'escape-string-regexp@1.0.2',
+300 verbose parsed url   path: 'escape-string-regexp@1.0.2',
+300 verbose parsed url   href: 'escape-string-regexp@1.0.2' }
+301 verbose request where is /diff
+302 verbose request registry https://registry.npmjs.org/
+303 verbose url raw /diff
+304 verbose url resolving [ 'https://registry.npmjs.org/', './diff' ]
+305 verbose url resolved https://registry.npmjs.org/diff
+306 verbose request where is https://registry.npmjs.org/diff
+307 info trying registry request attempt 1 at 16:41:30
+308 http GET https://registry.npmjs.org/diff
+309 verbose cache add [ 'glob@3.2.3', null ]
+310 verbose cache add name=undefined spec="glob@3.2.3" args=["glob@3.2.3",null]
+311 verbose parsed url { protocol: null,
+311 verbose parsed url   slashes: null,
+311 verbose parsed url   auth: null,
+311 verbose parsed url   host: null,
+311 verbose parsed url   port: null,
+311 verbose parsed url   hostname: null,
+311 verbose parsed url   hash: null,
+311 verbose parsed url   search: null,
+311 verbose parsed url   query: null,
+311 verbose parsed url   pathname: 'glob@3.2.3',
+311 verbose parsed url   path: 'glob@3.2.3',
+311 verbose parsed url   href: 'glob@3.2.3' }
+312 verbose cache add name="escape-string-regexp" spec="1.0.2" args=["escape-string-regexp","1.0.2"]
+313 verbose parsed url { protocol: null,
+313 verbose parsed url   slashes: null,
+313 verbose parsed url   auth: null,
+313 verbose parsed url   host: null,
+313 verbose parsed url   port: null,
+313 verbose parsed url   hostname: null,
+313 verbose parsed url   hash: null,
+313 verbose parsed url   search: null,
+313 verbose parsed url   query: null,
+313 verbose parsed url   pathname: '1.0.2',
+313 verbose parsed url   path: '1.0.2',
+313 verbose parsed url   href: '1.0.2' }
+314 verbose addNamed [ 'escape-string-regexp', '1.0.2' ]
+315 verbose addNamed [ '1.0.2', '1.0.2' ]
+316 silly lockFile 963ee3e8-escape-string-regexp-1-0-2 escape-string-regexp@1.0.2
+317 verbose lock escape-string-regexp@1.0.2 /Users/javiersolis/.npm/963ee3e8-escape-string-regexp-1-0-2.lock
+318 verbose cache add name="glob" spec="3.2.3" args=["glob","3.2.3"]
+319 verbose parsed url { protocol: null,
+319 verbose parsed url   slashes: null,
+319 verbose parsed url   auth: null,
+319 verbose parsed url   host: null,
+319 verbose parsed url   port: null,
+319 verbose parsed url   hostname: null,
+319 verbose parsed url   hash: null,
+319 verbose parsed url   search: null,
+319 verbose parsed url   query: null,
+319 verbose parsed url   pathname: '3.2.3',
+319 verbose parsed url   path: '3.2.3',
+319 verbose parsed url   href: '3.2.3' }
+320 verbose addNamed [ 'glob', '3.2.3' ]
+321 verbose addNamed [ '3.2.3', '3.2.3' ]
+322 silly lockFile 7fc225c9-glob-3-2-3 glob@3.2.3
+323 verbose lock glob@3.2.3 /Users/javiersolis/.npm/7fc225c9-glob-3-2-3.lock
+324 verbose cache add [ 'growl@1.8.1', null ]
+325 verbose cache add name=undefined spec="growl@1.8.1" args=["growl@1.8.1",null]
+326 verbose parsed url { protocol: null,
+326 verbose parsed url   slashes: null,
+326 verbose parsed url   auth: null,
+326 verbose parsed url   host: null,
+326 verbose parsed url   port: null,
+326 verbose parsed url   hostname: null,
+326 verbose parsed url   hash: null,
+326 verbose parsed url   search: null,
+326 verbose parsed url   query: null,
+326 verbose parsed url   pathname: 'growl@1.8.1',
+326 verbose parsed url   path: 'growl@1.8.1',
+326 verbose parsed url   href: 'growl@1.8.1' }
+327 verbose cache add name="growl" spec="1.8.1" args=["growl","1.8.1"]
+328 verbose parsed url { protocol: null,
+328 verbose parsed url   slashes: null,
+328 verbose parsed url   auth: null,
+328 verbose parsed url   host: null,
+328 verbose parsed url   port: null,
+328 verbose parsed url   hostname: null,
+328 verbose parsed url   hash: null,
+328 verbose parsed url   search: null,
+328 verbose parsed url   query: null,
+328 verbose parsed url   pathname: '1.8.1',
+328 verbose parsed url   path: '1.8.1',
+328 verbose parsed url   href: '1.8.1' }
+329 verbose addNamed [ 'growl', '1.8.1' ]
+330 verbose addNamed [ '1.8.1', '1.8.1' ]
+331 silly lockFile 76096383-growl-1-8-1 growl@1.8.1
+332 verbose lock growl@1.8.1 /Users/javiersolis/.npm/76096383-growl-1-8-1.lock
+333 verbose request where is /debug
+334 verbose request registry https://registry.npmjs.org/
+335 verbose url raw /debug
+336 verbose url resolving [ 'https://registry.npmjs.org/', './debug' ]
+337 verbose url resolved https://registry.npmjs.org/debug
+338 verbose request where is https://registry.npmjs.org/debug
+339 info trying registry request attempt 1 at 16:41:30
+340 verbose etag "EN7FU2MS73CVG0Z6VCP2JSURS"
+341 http GET https://registry.npmjs.org/debug
+342 verbose cache add [ 'jade@0.26.3', null ]
+343 verbose cache add name=undefined spec="jade@0.26.3" args=["jade@0.26.3",null]
+344 verbose parsed url { protocol: null,
+344 verbose parsed url   slashes: null,
+344 verbose parsed url   auth: null,
+344 verbose parsed url   host: null,
+344 verbose parsed url   port: null,
+344 verbose parsed url   hostname: null,
+344 verbose parsed url   hash: null,
+344 verbose parsed url   search: null,
+344 verbose parsed url   query: null,
+344 verbose parsed url   pathname: 'jade@0.26.3',
+344 verbose parsed url   path: 'jade@0.26.3',
+344 verbose parsed url   href: 'jade@0.26.3' }
+345 verbose cache add [ 'mkdirp@0.5.1', null ]
+346 verbose cache add name=undefined spec="mkdirp@0.5.1" args=["mkdirp@0.5.1",null]
+347 verbose parsed url { protocol: null,
+347 verbose parsed url   slashes: null,
+347 verbose parsed url   auth: null,
+347 verbose parsed url   host: null,
+347 verbose parsed url   port: null,
+347 verbose parsed url   hostname: null,
+347 verbose parsed url   hash: null,
+347 verbose parsed url   search: null,
+347 verbose parsed url   query: null,
+347 verbose parsed url   pathname: 'mkdirp@0.5.1',
+347 verbose parsed url   path: 'mkdirp@0.5.1',
+347 verbose parsed url   href: 'mkdirp@0.5.1' }
+348 verbose cache add name="jade" spec="0.26.3" args=["jade","0.26.3"]
+349 verbose parsed url { protocol: null,
+349 verbose parsed url   slashes: null,
+349 verbose parsed url   auth: null,
+349 verbose parsed url   host: null,
+349 verbose parsed url   port: null,
+349 verbose parsed url   hostname: null,
+349 verbose parsed url   hash: null,
+349 verbose parsed url   search: null,
+349 verbose parsed url   query: null,
+349 verbose parsed url   pathname: '0.26.3',
+349 verbose parsed url   path: '0.26.3',
+349 verbose parsed url   href: '0.26.3' }
+350 verbose addNamed [ 'jade', '0.26.3' ]
+351 verbose addNamed [ '0.26.3', '0.26.3' ]
+352 silly lockFile 7a3d3ea7-jade-0-26-3 jade@0.26.3
+353 verbose lock jade@0.26.3 /Users/javiersolis/.npm/7a3d3ea7-jade-0-26-3.lock
+354 verbose cache add [ 'supports-color@1.2.0', null ]
+355 verbose cache add name=undefined spec="supports-color@1.2.0" args=["supports-color@1.2.0",null]
+356 verbose parsed url { protocol: null,
+356 verbose parsed url   slashes: null,
+356 verbose parsed url   auth: null,
+356 verbose parsed url   host: null,
+356 verbose parsed url   port: null,
+356 verbose parsed url   hostname: null,
+356 verbose parsed url   hash: null,
+356 verbose parsed url   search: null,
+356 verbose parsed url   query: null,
+356 verbose parsed url   pathname: 'supports-color@1.2.0',
+356 verbose parsed url   path: 'supports-color@1.2.0',
+356 verbose parsed url   href: 'supports-color@1.2.0' }
+357 verbose cache add name="mkdirp" spec="0.5.1" args=["mkdirp","0.5.1"]
+358 verbose parsed url { protocol: null,
+358 verbose parsed url   slashes: null,
+358 verbose parsed url   auth: null,
+358 verbose parsed url   host: null,
+358 verbose parsed url   port: null,
+358 verbose parsed url   hostname: null,
+358 verbose parsed url   hash: null,
+358 verbose parsed url   search: null,
+358 verbose parsed url   query: null,
+358 verbose parsed url   pathname: '0.5.1',
+358 verbose parsed url   path: '0.5.1',
+358 verbose parsed url   href: '0.5.1' }
+359 verbose addNamed [ 'mkdirp', '0.5.1' ]
+360 verbose addNamed [ '0.5.1', '0.5.1' ]
+361 silly lockFile 8968b51f-mkdirp-0-5-1 mkdirp@0.5.1
+362 verbose lock mkdirp@0.5.1 /Users/javiersolis/.npm/8968b51f-mkdirp-0-5-1.lock
+363 verbose request where is /commander
+364 verbose request registry https://registry.npmjs.org/
+365 verbose url raw /commander
+366 verbose url resolving [ 'https://registry.npmjs.org/', './commander' ]
+367 verbose url resolved https://registry.npmjs.org/commander
+368 verbose request where is https://registry.npmjs.org/commander
+369 info trying registry request attempt 1 at 16:41:30
+370 verbose etag "7BDULYXCH45TMEQQ277U8V6U7"
+371 http GET https://registry.npmjs.org/commander
+372 verbose cache add name="supports-color" spec="1.2.0" args=["supports-color","1.2.0"]
+373 verbose parsed url { protocol: null,
+373 verbose parsed url   slashes: null,
+373 verbose parsed url   auth: null,
+373 verbose parsed url   host: null,
+373 verbose parsed url   port: null,
+373 verbose parsed url   hostname: null,
+373 verbose parsed url   hash: null,
+373 verbose parsed url   search: null,
+373 verbose parsed url   query: null,
+373 verbose parsed url   pathname: '1.2.0',
+373 verbose parsed url   path: '1.2.0',
+373 verbose parsed url   href: '1.2.0' }
+374 verbose addNamed [ 'supports-color', '1.2.0' ]
+375 verbose addNamed [ '1.2.0', '1.2.0' ]
+376 silly lockFile 71c863d2-supports-color-1-2-0 supports-color@1.2.0
+377 verbose lock supports-color@1.2.0 /Users/javiersolis/.npm/71c863d2-supports-color-1-2-0.lock
+378 verbose request where is /growl
+379 verbose request registry https://registry.npmjs.org/
+380 verbose url raw /growl
+381 verbose url resolving [ 'https://registry.npmjs.org/', './growl' ]
+382 verbose url resolved https://registry.npmjs.org/growl
+383 verbose request where is https://registry.npmjs.org/growl
+384 info trying registry request attempt 1 at 16:41:30
+385 http GET https://registry.npmjs.org/growl
+386 verbose request where is /jade
+387 verbose request registry https://registry.npmjs.org/
+388 verbose url raw /jade
+389 verbose url resolving [ 'https://registry.npmjs.org/', './jade' ]
+390 verbose url resolved https://registry.npmjs.org/jade
+391 verbose request where is https://registry.npmjs.org/jade
+392 info trying registry request attempt 1 at 16:41:30
+393 http GET https://registry.npmjs.org/jade
+394 verbose request where is /escape-string-regexp
+395 verbose request registry https://registry.npmjs.org/
+396 verbose url raw /escape-string-regexp
+397 verbose url resolving [ 'https://registry.npmjs.org/', './escape-string-regexp' ]
+398 verbose url resolved https://registry.npmjs.org/escape-string-regexp
+399 verbose request where is https://registry.npmjs.org/escape-string-regexp
+400 info trying registry request attempt 1 at 16:41:30
+401 verbose etag "8MOKZ3EZW5AOLELFFTR0T8K98"
+402 http GET https://registry.npmjs.org/escape-string-regexp
+403 verbose request where is /glob
+404 verbose request registry https://registry.npmjs.org/
+405 verbose url raw /glob
+406 verbose url resolving [ 'https://registry.npmjs.org/', './glob' ]
+407 verbose url resolved https://registry.npmjs.org/glob
+408 verbose request where is https://registry.npmjs.org/glob
+409 info trying registry request attempt 1 at 16:41:30
+410 verbose etag "78MHMVL89O1P4162S17MJ899K"
+411 http GET https://registry.npmjs.org/glob
+412 verbose request where is /mkdirp
+413 verbose request registry https://registry.npmjs.org/
+414 verbose url raw /mkdirp
+415 verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp' ]
+416 verbose url resolved https://registry.npmjs.org/mkdirp
+417 verbose request where is https://registry.npmjs.org/mkdirp
+418 info trying registry request attempt 1 at 16:41:30
+419 verbose etag "EV0XI9YZL4VRIOMYQ3HVDRX7E"
+420 http GET https://registry.npmjs.org/mkdirp
+421 verbose request where is /supports-color
+422 verbose request registry https://registry.npmjs.org/
+423 verbose url raw /supports-color
+424 verbose url resolving [ 'https://registry.npmjs.org/', './supports-color' ]
+425 verbose url resolved https://registry.npmjs.org/supports-color
+426 verbose request where is https://registry.npmjs.org/supports-color
+427 info trying registry request attempt 1 at 16:41:30
+428 verbose etag "91QPISXHGSPQQAUI4IY5OE9UJ"
+429 http GET https://registry.npmjs.org/supports-color
+430 http 200 https://registry.npmjs.org/assertion-error
+431 silly registry.get cb [ 200,
+431 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+431 silly registry.get     etag: '"24FGJ5E43YUU76OMKWEHAIZNF"',
+431 silly registry.get     'content-type': 'application/json',
+431 silly registry.get     'cache-control': 'max-age=300',
+431 silly registry.get     'content-length': '5663',
+431 silly registry.get     'accept-ranges': 'bytes',
+431 silly registry.get     date: 'Wed, 23 Mar 2016 22:41:30 GMT',
+431 silly registry.get     via: '1.1 varnish',
+431 silly registry.get     age: '79',
+431 silly registry.get     connection: 'keep-alive',
+431 silly registry.get     'x-served-by': 'cache-ord1738-ORD',
+431 silly registry.get     'x-cache': 'HIT',
+431 silly registry.get     'x-cache-hits': '1',
+431 silly registry.get     'x-timer': 'S1458772890.542972,VS0,VE0',
+431 silly registry.get     vary: 'Accept' } ]
+432 silly addNameRange number 2 { name: 'assertion-error',
+432 silly addNameRange   range: '>=1.0.1-0 <2.0.0-0',
+432 silly addNameRange   hasData: true }
+433 silly addNameRange versions [ 'assertion-error', [ '0.1.0', '1.0.0', '1.0.1' ] ]
+434 verbose addNamed [ 'assertion-error', '1.0.1' ]
+435 verbose addNamed [ '1.0.1', '1.0.1' ]
+436 silly lockFile 5adbb53e-assertion-error-1-0-1 assertion-error@1.0.1
+437 verbose lock assertion-error@1.0.1 /Users/javiersolis/.npm/5adbb53e-assertion-error-1-0-1.lock
+438 http 200 https://registry.npmjs.org/deep-eql
+439 silly registry.get cb [ 200,
+439 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+439 silly registry.get     etag: '"4J4CQZCY7T9LYAX8QU0YTYBMA"',
+439 silly registry.get     'content-type': 'application/json',
+439 silly registry.get     'cache-control': 'max-age=300',
+439 silly registry.get     'content-length': '7088',
+439 silly registry.get     'accept-ranges': 'bytes',
+439 silly registry.get     date: 'Wed, 23 Mar 2016 22:41:30 GMT',
+439 silly registry.get     via: '1.1 varnish',
+439 silly registry.get     age: '17',
+439 silly registry.get     connection: 'keep-alive',
+439 silly registry.get     'x-served-by': 'cache-ord1736-ORD',
+439 silly registry.get     'x-cache': 'HIT',
+439 silly registry.get     'x-cache-hits': '1',
+439 silly registry.get     'x-timer': 'S1458772890.545664,VS0,VE0',
+439 silly registry.get     vary: 'Accept' } ]
+440 silly lockFile ea58d64b--error-assertion-error-1-0-1-tgz https://registry.npmjs.org/assertion-error/-/assertion-error-1.0.1.tgz
+441 verbose lock https://registry.npmjs.org/assertion-error/-/assertion-error-1.0.1.tgz /Users/javiersolis/.npm/ea58d64b--error-assertion-error-1-0-1-tgz.lock
+442 verbose addRemoteTarball [ 'https://registry.npmjs.org/assertion-error/-/assertion-error-1.0.1.tgz',
+442 verbose addRemoteTarball   '35aaeec33097f11f42399ecadf33faccd27f5c4c' ]
+443 silly addNameRange number 2 { name: 'deep-eql', range: '>=0.1.3-0 <0.2.0-0', hasData: true }
+444 silly addNameRange versions [ 'deep-eql', [ '0.1.0', '0.1.1', '0.1.2', '0.1.3' ] ]
+445 verbose addNamed [ 'deep-eql', '0.1.3' ]
+446 verbose addNamed [ '0.1.3', '0.1.3' ]
+447 silly lockFile 9537c900-deep-eql-0-1-3 deep-eql@0.1.3
+448 verbose lock deep-eql@0.1.3 /Users/javiersolis/.npm/9537c900-deep-eql-0-1-3.lock
+449 info retry fetch attempt 1 at 16:41:30
+450 verbose fetch to= /var/folders/jn/jwly3_110js_sqqrmfgqqrd00000gp/T/npm-5232-Q6Ag6YdY/registry.npmjs.org/assertion-error/-/assertion-error-1.0.1.tgz
+451 http GET https://registry.npmjs.org/assertion-error/-/assertion-error-1.0.1.tgz
+452 silly lockFile 00811ea2--org-deep-eql-deep-eql-0-1-3-tgz https://registry.npmjs.org/deep-eql/-/deep-eql-0.1.3.tgz
+453 verbose lock https://registry.npmjs.org/deep-eql/-/deep-eql-0.1.3.tgz /Users/javiersolis/.npm/00811ea2--org-deep-eql-deep-eql-0-1-3-tgz.lock
+454 verbose addRemoteTarball [ 'https://registry.npmjs.org/deep-eql/-/deep-eql-0.1.3.tgz',
+454 verbose addRemoteTarball   'ef558acab8de25206cd713906d74e56930eb69f2' ]
+455 info retry fetch attempt 1 at 16:41:30
+456 verbose fetch to= /var/folders/jn/jwly3_110js_sqqrmfgqqrd00000gp/T/npm-5232-Q6Ag6YdY/registry.npmjs.org/deep-eql/-/deep-eql-0.1.3.tgz
+457 http GET https://registry.npmjs.org/deep-eql/-/deep-eql-0.1.3.tgz
+458 http 304 https://registry.npmjs.org/debug
+459 silly registry.get cb [ 304,
+459 silly registry.get   { date: 'Wed, 23 Mar 2016 22:41:30 GMT',
+459 silly registry.get     via: '1.1 varnish',
+459 silly registry.get     'cache-control': 'max-age=300',
+459 silly registry.get     etag: '"EN7FU2MS73CVG0Z6VCP2JSURS"',
+459 silly registry.get     age: '112',
+459 silly registry.get     connection: 'keep-alive',
+459 silly registry.get     'x-served-by': 'cache-ord1724-ORD',
+459 silly registry.get     'x-cache': 'HIT',
+459 silly registry.get     'x-cache-hits': '5',
+459 silly registry.get     'x-timer': 'S1458772890.573048,VS0,VE0',
+459 silly registry.get     vary: 'Accept' } ]
+460 verbose etag https://registry.npmjs.org/debug from cache
+461 silly lockFile 82f99b48-debug-2-2-0 debug@2.2.0
+462 silly lockFile 82f99b48-debug-2-2-0 debug@2.2.0
+463 http 200 https://registry.npmjs.org/type-detect
+464 silly registry.get cb [ 200,
+464 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+464 silly registry.get     etag: '"916UFYWV1KHSHOZP38LGHRW6C"',
+464 silly registry.get     'content-type': 'application/json',
+464 silly registry.get     'cache-control': 'max-age=300',
+464 silly registry.get     'content-length': '13934',
+464 silly registry.get     'accept-ranges': 'bytes',
+464 silly registry.get     date: 'Wed, 23 Mar 2016 22:41:30 GMT',
+464 silly registry.get     via: '1.1 varnish',
+464 silly registry.get     age: '161',
+464 silly registry.get     connection: 'keep-alive',
+464 silly registry.get     'x-served-by': 'cache-ord1721-ORD',
+464 silly registry.get     'x-cache': 'HIT',
+464 silly registry.get     'x-cache-hits': '4',
+464 silly registry.get     'x-timer': 'S1458772890.538418,VS0,VE0',
+464 silly registry.get     vary: 'Accept' } ]
+465 silly addNameRange number 2 { name: 'type-detect',
+465 silly addNameRange   range: '>=1.0.0-0 <2.0.0-0',
+465 silly addNameRange   hasData: true }
+466 silly addNameRange versions [ 'type-detect',
+466 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '1.0.0', '2.0.0' ] ]
+467 verbose addNamed [ 'type-detect', '1.0.0' ]
+468 verbose addNamed [ '1.0.0', '1.0.0' ]
+469 silly lockFile 267fe762-type-detect-1-0-0 type-detect@1.0.0
+470 verbose lock type-detect@1.0.0 /Users/javiersolis/.npm/267fe762-type-detect-1-0-0.lock
+471 silly lockFile 24d8ef30-ype-detect-type-detect-1-0-0-tgz https://registry.npmjs.org/type-detect/-/type-detect-1.0.0.tgz
+472 verbose lock https://registry.npmjs.org/type-detect/-/type-detect-1.0.0.tgz /Users/javiersolis/.npm/24d8ef30-ype-detect-type-detect-1-0-0-tgz.lock
+473 verbose addRemoteTarball [ 'https://registry.npmjs.org/type-detect/-/type-detect-1.0.0.tgz',
+473 verbose addRemoteTarball   '762217cc06db258ec48908a1298e8b95121e8ea2' ]
+474 info retry fetch attempt 1 at 16:41:30
+475 verbose fetch to= /var/folders/jn/jwly3_110js_sqqrmfgqqrd00000gp/T/npm-5232-Q6Ag6YdY/registry.npmjs.org/type-detect/-/type-detect-1.0.0.tgz
+476 http GET https://registry.npmjs.org/type-detect/-/type-detect-1.0.0.tgz
+477 http 200 https://registry.npmjs.org/escape-string-regexp
+478 silly registry.get cb [ 200,
+478 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+478 silly registry.get     etag: '"BO6X0Q949NALK20NKPPHXQBXY"',
+478 silly registry.get     'content-type': 'application/json',
+478 silly registry.get     'cache-control': 'max-age=300',
+478 silly registry.get     'content-length': '9157',
+478 silly registry.get     'accept-ranges': 'bytes',
+478 silly registry.get     date: 'Wed, 23 Mar 2016 22:41:30 GMT',
+478 silly registry.get     via: '1.1 varnish',
+478 silly registry.get     age: '265',
+478 silly registry.get     connection: 'keep-alive',
+478 silly registry.get     'x-served-by': 'cache-ord1721-ORD',
+478 silly registry.get     'x-cache': 'HIT',
+478 silly registry.get     'x-cache-hits': '14',
+478 silly registry.get     'x-timer': 'S1458772890.645991,VS0,VE0',
+478 silly registry.get     vary: 'Accept' } ]
+479 silly lockFile 49eddbbb-p-escape-string-regexp-1-0-2-tgz https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.2.tgz
+480 verbose lock https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.2.tgz /Users/javiersolis/.npm/49eddbbb-p-escape-string-regexp-1-0-2-tgz.lock
+481 verbose addRemoteTarball [ 'https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.2.tgz',
+481 verbose addRemoteTarball   '4dbc2fe674e71949caf3fb2695ce7f2dc1d9a8d1' ]
+482 info retry fetch attempt 1 at 16:41:30
+483 verbose fetch to= /var/folders/jn/jwly3_110js_sqqrmfgqqrd00000gp/T/npm-5232-Q6Ag6YdY/registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.2.tgz
+484 http GET https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.2.tgz
+485 http 200 https://registry.npmjs.org/growl
+486 silly registry.get cb [ 200,
+486 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+486 silly registry.get     etag: '"EJ5NI4N6AYEV9IXMVJRTMA20K"',
+486 silly registry.get     'content-type': 'application/json',
+486 silly registry.get     'cache-control': 'max-age=300',
+486 silly registry.get     'content-length': '17644',
+486 silly registry.get     'accept-ranges': 'bytes',
+486 silly registry.get     date: 'Wed, 23 Mar 2016 22:41:30 GMT',
+486 silly registry.get     via: '1.1 varnish',
+486 silly registry.get     age: '286',
+486 silly registry.get     connection: 'keep-alive',
+486 silly registry.get     'x-served-by': 'cache-ord1736-ORD',
+486 silly registry.get     'x-cache': 'HIT',
+486 silly registry.get     'x-cache-hits': '7',
+486 silly registry.get     'x-timer': 'S1458772890.600285,VS0,VE0',
+486 silly registry.get     vary: 'Accept' } ]
+487 silly lockFile 2d43441e--npmjs-org-growl-growl-1-8-1-tgz https://registry.npmjs.org/growl/-/growl-1.8.1.tgz
+488 verbose lock https://registry.npmjs.org/growl/-/growl-1.8.1.tgz /Users/javiersolis/.npm/2d43441e--npmjs-org-growl-growl-1-8-1-tgz.lock
+489 verbose addRemoteTarball [ 'https://registry.npmjs.org/growl/-/growl-1.8.1.tgz',
+489 verbose addRemoteTarball   '4b2dec8d907e93db336624dcec0183502f8c9428' ]
+490 info retry fetch attempt 1 at 16:41:30
+491 verbose fetch to= /var/folders/jn/jwly3_110js_sqqrmfgqqrd00000gp/T/npm-5232-Q6Ag6YdY/registry.npmjs.org/growl/-/growl-1.8.1.tgz
+492 http GET https://registry.npmjs.org/growl/-/growl-1.8.1.tgz
+493 http 200 https://registry.npmjs.org/diff
+494 silly registry.get cb [ 200,
+494 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+494 silly registry.get     etag: '"34R2LJRUN35AV45546RUWD3EZ"',
+494 silly registry.get     'content-type': 'application/json',
+494 silly registry.get     'cache-control': 'max-age=300',
+494 silly registry.get     'content-length': '43797',
+494 silly registry.get     'accept-ranges': 'bytes',
+494 silly registry.get     date: 'Wed, 23 Mar 2016 22:41:30 GMT',
+494 silly registry.get     via: '1.1 varnish',
+494 silly registry.get     age: '128',
+494 silly registry.get     connection: 'keep-alive',
+494 silly registry.get     'x-served-by': 'cache-ord1741-ORD',
+494 silly registry.get     'x-cache': 'HIT',
+494 silly registry.get     'x-cache-hits': '3',
+494 silly registry.get     'x-timer': 'S1458772890.567798,VS0,VE0',
+494 silly registry.get     vary: 'Accept' } ]
+495 silly lockFile d8b1644d-ry-npmjs-org-diff-diff-1-4-0-tgz https://registry.npmjs.org/diff/-/diff-1.4.0.tgz
+496 verbose lock https://registry.npmjs.org/diff/-/diff-1.4.0.tgz /Users/javiersolis/.npm/d8b1644d-ry-npmjs-org-diff-diff-1-4-0-tgz.lock
+497 verbose addRemoteTarball [ 'https://registry.npmjs.org/diff/-/diff-1.4.0.tgz',
+497 verbose addRemoteTarball   '7f28d2eb9ee7b15a97efd89ce63dcfdaa3ccbabf' ]
+498 info retry fetch attempt 1 at 16:41:30
+499 verbose fetch to= /var/folders/jn/jwly3_110js_sqqrmfgqqrd00000gp/T/npm-5232-Q6Ag6YdY/registry.npmjs.org/diff/-/diff-1.4.0.tgz
+500 http GET https://registry.npmjs.org/diff/-/diff-1.4.0.tgz
+501 http 304 https://registry.npmjs.org/glob
+502 silly registry.get cb [ 304,
+502 silly registry.get   { date: 'Wed, 23 Mar 2016 22:41:30 GMT',
+502 silly registry.get     via: '1.1 varnish',
+502 silly registry.get     'cache-control': 'max-age=300',
+502 silly registry.get     etag: '"78MHMVL89O1P4162S17MJ899K"',
+502 silly registry.get     age: '269',
+502 silly registry.get     connection: 'keep-alive',
+502 silly registry.get     'x-served-by': 'cache-ord1721-ORD',
+502 silly registry.get     'x-cache': 'HIT',
+502 silly registry.get     'x-cache-hits': '472',
+502 silly registry.get     'x-timer': 'S1458772890.702779,VS0,VE0',
+502 silly registry.get     vary: 'Accept' } ]
+503 verbose etag https://registry.npmjs.org/glob from cache
+504 http 200 https://registry.npmjs.org/commander
+505 silly registry.get cb [ 200,
+505 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+505 silly registry.get     etag: '"59FU3ZBFQRUB6UCN70IOLYBZP"',
+505 silly registry.get     'content-type': 'application/json',
+505 silly registry.get     'cache-control': 'max-age=300',
+505 silly registry.get     'content-length': '61655',
+505 silly registry.get     'accept-ranges': 'bytes',
+505 silly registry.get     date: 'Wed, 23 Mar 2016 22:41:30 GMT',
+505 silly registry.get     via: '1.1 varnish',
+505 silly registry.get     age: '139',
+505 silly registry.get     connection: 'keep-alive',
+505 silly registry.get     'x-served-by': 'cache-ord1738-ORD',
+505 silly registry.get     'x-cache': 'HIT',
+505 silly registry.get     'x-cache-hits': '8',
+505 silly registry.get     'x-timer': 'S1458772890.598668,VS0,VE0',
+505 silly registry.get     vary: 'Accept' } ]
+506 http 304 https://registry.npmjs.org/mkdirp
+507 silly registry.get cb [ 304,
+507 silly registry.get   { date: 'Wed, 23 Mar 2016 22:41:30 GMT',
+507 silly registry.get     via: '1.1 varnish',
+507 silly registry.get     'cache-control': 'max-age=300',
+507 silly registry.get     etag: '"EV0XI9YZL4VRIOMYQ3HVDRX7E"',
+507 silly registry.get     age: '129',
+507 silly registry.get     connection: 'keep-alive',
+507 silly registry.get     'x-served-by': 'cache-ord1736-ORD',
+507 silly registry.get     'x-cache': 'HIT',
+507 silly registry.get     'x-cache-hits': '7',
+507 silly registry.get     'x-timer': 'S1458772890.715434,VS0,VE0',
+507 silly registry.get     vary: 'Accept' } ]
+508 verbose etag https://registry.npmjs.org/mkdirp from cache
+509 silly lockFile a9f6a521-ry-npmjs-org-glob-glob-3-2-3-tgz https://registry.npmjs.org/glob/-/glob-3.2.3.tgz
+510 verbose lock https://registry.npmjs.org/glob/-/glob-3.2.3.tgz /Users/javiersolis/.npm/a9f6a521-ry-npmjs-org-glob-glob-3-2-3-tgz.lock
+511 silly lockFile 374910b0-rg-commander-commander-2-3-0-tgz https://registry.npmjs.org/commander/-/commander-2.3.0.tgz
+512 verbose lock https://registry.npmjs.org/commander/-/commander-2.3.0.tgz /Users/javiersolis/.npm/374910b0-rg-commander-commander-2-3-0-tgz.lock
+513 verbose addRemoteTarball [ 'https://registry.npmjs.org/glob/-/glob-3.2.3.tgz',
+513 verbose addRemoteTarball   'e313eeb249c7affaa5c475286b0e115b59839467' ]
+514 verbose addRemoteTarball [ 'https://registry.npmjs.org/commander/-/commander-2.3.0.tgz',
+514 verbose addRemoteTarball   'fd430e889832ec353b9acd1de217c11cb3eef873' ]
+515 info retry fetch attempt 1 at 16:41:30
+516 verbose fetch to= /var/folders/jn/jwly3_110js_sqqrmfgqqrd00000gp/T/npm-5232-Q6Ag6YdY/registry.npmjs.org/glob/-/glob-3.2.3.tgz
+517 info retry fetch attempt 1 at 16:41:30
+518 verbose fetch to= /var/folders/jn/jwly3_110js_sqqrmfgqqrd00000gp/T/npm-5232-Q6Ag6YdY/registry.npmjs.org/commander/-/commander-2.3.0.tgz
+519 http GET https://registry.npmjs.org/glob/-/glob-3.2.3.tgz
+520 http GET https://registry.npmjs.org/commander/-/commander-2.3.0.tgz
+521 silly lockFile 8968b51f-mkdirp-0-5-1 mkdirp@0.5.1
+522 silly lockFile 8968b51f-mkdirp-0-5-1 mkdirp@0.5.1
+523 http 304 https://registry.npmjs.org/supports-color
+524 silly registry.get cb [ 304,
+524 silly registry.get   { date: 'Wed, 23 Mar 2016 22:41:30 GMT',
+524 silly registry.get     via: '1.1 varnish',
+524 silly registry.get     'cache-control': 'max-age=300',
+524 silly registry.get     etag: '"91QPISXHGSPQQAUI4IY5OE9UJ"',
+524 silly registry.get     age: '198',
+524 silly registry.get     connection: 'keep-alive',
+524 silly registry.get     'x-served-by': 'cache-ord1741-ORD',
+524 silly registry.get     'x-cache': 'HIT',
+524 silly registry.get     'x-cache-hits': '5',
+524 silly registry.get     'x-timer': 'S1458772890.733385,VS0,VE0',
+524 silly registry.get     vary: 'Accept' } ]
+525 verbose etag https://registry.npmjs.org/supports-color from cache
+526 silly lockFile 765dc851-s-color-supports-color-1-2-0-tgz https://registry.npmjs.org/supports-color/-/supports-color-1.2.0.tgz
+527 verbose lock https://registry.npmjs.org/supports-color/-/supports-color-1.2.0.tgz /Users/javiersolis/.npm/765dc851-s-color-supports-color-1-2-0-tgz.lock
+528 verbose addRemoteTarball [ 'https://registry.npmjs.org/supports-color/-/supports-color-1.2.0.tgz',
+528 verbose addRemoteTarball   'ff1ed1e61169d06b3cf2d588e188b18d8847e17e' ]
+529 info retry fetch attempt 1 at 16:41:30
+530 verbose fetch to= /var/folders/jn/jwly3_110js_sqqrmfgqqrd00000gp/T/npm-5232-Q6Ag6YdY/registry.npmjs.org/supports-color/-/supports-color-1.2.0.tgz
+531 http GET https://registry.npmjs.org/supports-color/-/supports-color-1.2.0.tgz
+532 http 200 https://registry.npmjs.org/assertion-error/-/assertion-error-1.0.1.tgz
+533 http 200 https://registry.npmjs.org/deep-eql/-/deep-eql-0.1.3.tgz
+534 silly lockFile 00811ea2--org-deep-eql-deep-eql-0-1-3-tgz https://registry.npmjs.org/deep-eql/-/deep-eql-0.1.3.tgz
+535 silly lockFile 00811ea2--org-deep-eql-deep-eql-0-1-3-tgz https://registry.npmjs.org/deep-eql/-/deep-eql-0.1.3.tgz
+536 silly lockFile ea58d64b--error-assertion-error-1-0-1-tgz https://registry.npmjs.org/assertion-error/-/assertion-error-1.0.1.tgz
+537 silly lockFile ea58d64b--error-assertion-error-1-0-1-tgz https://registry.npmjs.org/assertion-error/-/assertion-error-1.0.1.tgz
+538 silly lockFile 9537c900-deep-eql-0-1-3 deep-eql@0.1.3
+539 silly lockFile 9537c900-deep-eql-0-1-3 deep-eql@0.1.3
+540 silly lockFile 5adbb53e-assertion-error-1-0-1 assertion-error@1.0.1
+541 silly lockFile 5adbb53e-assertion-error-1-0-1 assertion-error@1.0.1
+542 silly lockFile c0c3b032-deep-eql-0-1-3 deep-eql@^0.1.3
+543 silly lockFile c0c3b032-deep-eql-0-1-3 deep-eql@^0.1.3
+544 silly lockFile e5c22c6d-assertion-error-1-0-1 assertion-error@^1.0.1
+545 silly lockFile e5c22c6d-assertion-error-1-0-1 assertion-error@^1.0.1
+546 http 200 https://registry.npmjs.org/jade
+547 silly registry.get cb [ 200,
+547 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+547 silly registry.get     etag: '"CJ5C65GHRMKXGFWNQTBUXYONK"',
+547 silly registry.get     'content-type': 'application/json',
+547 silly registry.get     'cache-control': 'max-age=300',
+547 silly registry.get     'content-length': '148510',
+547 silly registry.get     'accept-ranges': 'bytes',
+547 silly registry.get     date: 'Wed, 23 Mar 2016 22:41:30 GMT',
+547 silly registry.get     via: '1.1 varnish',
+547 silly registry.get     age: '280',
+547 silly registry.get     connection: 'keep-alive',
+547 silly registry.get     'x-served-by': 'cache-ord1724-ORD',
+547 silly registry.get     'x-cache': 'HIT',
+547 silly registry.get     'x-cache-hits': '1',
+547 silly registry.get     'x-timer': 'S1458772890.626650,VS0,VE0',
+547 silly registry.get     vary: 'Accept' } ]
+548 http 200 https://registry.npmjs.org/type-detect/-/type-detect-1.0.0.tgz
+549 http 200 https://registry.npmjs.org/diff/-/diff-1.4.0.tgz
+550 silly lockFile 44268bc8-y-npmjs-org-jade-jade-0-26-3-tgz https://registry.npmjs.org/jade/-/jade-0.26.3.tgz
+551 verbose lock https://registry.npmjs.org/jade/-/jade-0.26.3.tgz /Users/javiersolis/.npm/44268bc8-y-npmjs-org-jade-jade-0-26-3-tgz.lock
+552 verbose addRemoteTarball [ 'https://registry.npmjs.org/jade/-/jade-0.26.3.tgz',
+552 verbose addRemoteTarball   '8f10d7977d8d79f2f6ff862a81b0513ccb25686c' ]
+553 info retry fetch attempt 1 at 16:41:30
+554 verbose fetch to= /var/folders/jn/jwly3_110js_sqqrmfgqqrd00000gp/T/npm-5232-Q6Ag6YdY/registry.npmjs.org/jade/-/jade-0.26.3.tgz
+555 http GET https://registry.npmjs.org/jade/-/jade-0.26.3.tgz
+556 silly lockFile 24d8ef30-ype-detect-type-detect-1-0-0-tgz https://registry.npmjs.org/type-detect/-/type-detect-1.0.0.tgz
+557 silly lockFile 24d8ef30-ype-detect-type-detect-1-0-0-tgz https://registry.npmjs.org/type-detect/-/type-detect-1.0.0.tgz
+558 silly lockFile d8b1644d-ry-npmjs-org-diff-diff-1-4-0-tgz https://registry.npmjs.org/diff/-/diff-1.4.0.tgz
+559 silly lockFile d8b1644d-ry-npmjs-org-diff-diff-1-4-0-tgz https://registry.npmjs.org/diff/-/diff-1.4.0.tgz
+560 silly lockFile 267fe762-type-detect-1-0-0 type-detect@1.0.0
+561 silly lockFile 267fe762-type-detect-1-0-0 type-detect@1.0.0
+562 silly lockFile ab0dba8e-diff-1-4-0 diff@1.4.0
+563 silly lockFile ab0dba8e-diff-1-4-0 diff@1.4.0
+564 silly lockFile 51104c64-type-detect-1-0-0 type-detect@^1.0.0
+565 silly lockFile 51104c64-type-detect-1-0-0 type-detect@^1.0.0
+566 silly resolved [ { name: 'deep-eql',
+566 silly resolved     version: '0.1.3',
+566 silly resolved     description: 'Improved deep equality testing for Node.js and the browser.',
+566 silly resolved     author: { name: 'Jake Luer', email: 'jake@alogicalparadox.com' },
+566 silly resolved     license: 'MIT',
+566 silly resolved     keywords: [ 'deep equal', 'object equal', 'testing', 'chai util' ],
+566 silly resolved     repository: { type: 'git', url: 'git@github.com:chaijs/deep-eql.git' },
+566 silly resolved     engines: { node: '*' },
+566 silly resolved     main: './index',
+566 silly resolved     scripts: { test: 'make test' },
+566 silly resolved     dependencies: { 'type-detect': '0.1.1' },
+566 silly resolved     devDependencies:
+566 silly resolved      { component: '*',
+566 silly resolved        coveralls: '2.0.16',
+566 silly resolved        jscoverage: '0.3.7',
+566 silly resolved        karma: '0.10.x',
+566 silly resolved        'karma-mocha': '*',
+566 silly resolved        mocha: '*',
+566 silly resolved        'mocha-lcov-reporter': '0.0.1',
+566 silly resolved        'simple-assert': '*' },
+566 silly resolved     bugs: { url: 'https://github.com/chaijs/deep-eql/issues' },
+566 silly resolved     _id: 'deep-eql@0.1.3',
+566 silly resolved     dist:
+566 silly resolved      { shasum: 'ef558acab8de25206cd713906d74e56930eb69f2',
+566 silly resolved        tarball: 'http://registry.npmjs.org/deep-eql/-/deep-eql-0.1.3.tgz' },
+566 silly resolved     _from: 'deep-eql@^0.1.3',
+566 silly resolved     _npmVersion: '1.3.11',
+566 silly resolved     _npmUser: { name: 'jakeluer', email: 'jake@alogicalparadox.com' },
+566 silly resolved     maintainers: [ [Object] ],
+566 silly resolved     directories: {},
+566 silly resolved     _shasum: 'ef558acab8de25206cd713906d74e56930eb69f2',
+566 silly resolved     _resolved: 'https://registry.npmjs.org/deep-eql/-/deep-eql-0.1.3.tgz' },
+566 silly resolved   { name: 'assertion-error',
+566 silly resolved     version: '1.0.1',
+566 silly resolved     description: 'Error constructor for test and validation frameworks that implements standardized AssertionError specification.',
+566 silly resolved     author:
+566 silly resolved      { name: 'Jake Luer',
+566 silly resolved        email: 'jake@qualiancy.com',
+566 silly resolved        url: 'http://qualiancy.com' },
+566 silly resolved     license: 'MIT',
+566 silly resolved     keywords: [ 'test', 'assertion', 'assertion-error' ],
+566 silly resolved     repository:
+566 silly resolved      { type: 'git',
+566 silly resolved        url: 'git@github.com:chaijs/assertion-error.git' },
+566 silly resolved     engines: { node: '*' },
+566 silly resolved     main: './index',
+566 silly resolved     scripts: { test: 'make test' },
+566 silly resolved     dependencies: {},
+566 silly resolved     devDependencies: { component: '*' },
+566 silly resolved     gitHead: 'db10d2fc753f00b3dad24956921056eaf1e03708',
+566 silly resolved     bugs: { url: 'https://github.com/chaijs/assertion-error/issues' },
+566 silly resolved     homepage: 'https://github.com/chaijs/assertion-error',
+566 silly resolved     _id: 'assertion-error@1.0.1',
+566 silly resolved     _shasum: '35aaeec33097f11f42399ecadf33faccd27f5c4c',
+566 silly resolved     _from: 'assertion-error@^1.0.1',
+566 silly resolved     _npmVersion: '1.4.28',
+566 silly resolved     _npmUser: { name: 'jakeluer', email: 'jake@alogicalparadox.com' },
+566 silly resolved     maintainers: [ [Object] ],
+566 silly resolved     dist:
+566 silly resolved      { shasum: '35aaeec33097f11f42399ecadf33faccd27f5c4c',
+566 silly resolved        tarball: 'http://registry.npmjs.org/assertion-error/-/assertion-error-1.0.1.tgz' },
+566 silly resolved     directories: {},
+566 silly resolved     _resolved: 'https://registry.npmjs.org/assertion-error/-/assertion-error-1.0.1.tgz' },
+566 silly resolved   { name: 'type-detect',
+566 silly resolved     version: '1.0.0',
+566 silly resolved     description: 'Improved typeof detection for node.js and the browser.',
+566 silly resolved     author:
+566 silly resolved      { name: 'Jake Luer',
+566 silly resolved        email: 'jake@alogicalparadox.com',
+566 silly resolved        url: 'http://alogicalparadox.com' },
+566 silly resolved     license: 'MIT',
+566 silly resolved     keywords: [],
+566 silly resolved     repository: { type: 'git', url: 'git@github.com:chaijs/type-detect.git' },
+566 silly resolved     engines: { node: '*' },
+566 silly resolved     main: './index',
+566 silly resolved     scripts: { test: 'make test' },
+566 silly resolved     dependencies: {},
+566 silly resolved     devDependencies:
+566 silly resolved      { component: '*',
+566 silly resolved        coveralls: '2.0.16',
+566 silly resolved        jscoverage: '0.3.7',
+566 silly resolved        mocha: '*',
+566 silly resolved        'mocha-lcov-reporter': '0.0.1',
+566 silly resolved        'mocha-phantomjs': '*',
+566 silly resolved        'simple-assert': '*' },
+566 silly resolved     gitHead: '3617862cbaa220d3700cfc9e96c6d3feb49e9587',
+566 silly resolved     bugs: { url: 'https://github.com/chaijs/type-detect/issues' },
+566 silly resolved     homepage: 'https://github.com/chaijs/type-detect',
+566 silly resolved     _id: 'type-detect@1.0.0',
+566 silly resolved     _shasum: '762217cc06db258ec48908a1298e8b95121e8ea2',
+566 silly resolved     _from: 'type-detect@^1.0.0',
+566 silly resolved     _npmVersion: '2.3.0',
+566 silly resolved     _nodeVersion: '0.11.16',
+566 silly resolved     _npmUser: { name: 'jakeluer', email: 'jake@alogicalparadox.com' },
+566 silly resolved     maintainers: [ [Object] ],
+566 silly resolved     dist:
+566 silly resolved      { shasum: '762217cc06db258ec48908a1298e8b95121e8ea2',
+566 silly resolved        tarball: 'http://registry.npmjs.org/type-detect/-/type-detect-1.0.0.tgz' },
+566 silly resolved     directories: {},
+566 silly resolved     _resolved: 'https://registry.npmjs.org/type-detect/-/type-detect-1.0.0.tgz' } ]
+567 info install deep-eql@0.1.3 into /programming/proys/cloudino/server/Cloudino-Node-RED/node_modules/chai
+568 info install assertion-error@1.0.1 into /programming/proys/cloudino/server/Cloudino-Node-RED/node_modules/chai
+569 info install type-detect@1.0.0 into /programming/proys/cloudino/server/Cloudino-Node-RED/node_modules/chai
+570 info installOne deep-eql@0.1.3
+571 info installOne assertion-error@1.0.1
+572 info installOne type-detect@1.0.0
+573 verbose node_modules/chai/node_modules/assertion-error unbuild
+574 verbose node_modules/chai/node_modules/deep-eql unbuild
+575 verbose node_modules/chai/node_modules/type-detect unbuild
+576 verbose tar unpack /Users/javiersolis/.npm/assertion-error/1.0.1/package.tgz
+577 silly lockFile e1f1a5a5-hai-node-modules-assertion-error tar:///programming/proys/cloudino/server/Cloudino-Node-RED/node_modules/chai/node_modules/assertion-error
+578 verbose lock tar:///programming/proys/cloudino/server/Cloudino-Node-RED/node_modules/chai/node_modules/assertion-error /Users/javiersolis/.npm/e1f1a5a5-hai-node-modules-assertion-error.lock
+579 silly lockFile aa0c7a8b-ssertion-error-1-0-1-package-tgz tar:///Users/javiersolis/.npm/assertion-error/1.0.1/package.tgz
+580 verbose lock tar:///Users/javiersolis/.npm/assertion-error/1.0.1/package.tgz /Users/javiersolis/.npm/aa0c7a8b-ssertion-error-1-0-1-package-tgz.lock
+581 verbose tar unpack /Users/javiersolis/.npm/deep-eql/0.1.3/package.tgz
+582 silly lockFile 5811fdc1-dules-chai-node-modules-deep-eql tar:///programming/proys/cloudino/server/Cloudino-Node-RED/node_modules/chai/node_modules/deep-eql
+583 verbose lock tar:///programming/proys/cloudino/server/Cloudino-Node-RED/node_modules/chai/node_modules/deep-eql /Users/javiersolis/.npm/5811fdc1-dules-chai-node-modules-deep-eql.lock
+584 silly lockFile 4987dcd8-s-npm-deep-eql-0-1-3-package-tgz tar:///Users/javiersolis/.npm/deep-eql/0.1.3/package.tgz
+585 verbose lock tar:///Users/javiersolis/.npm/deep-eql/0.1.3/package.tgz /Users/javiersolis/.npm/4987dcd8-s-npm-deep-eql-0-1-3-package-tgz.lock
+586 verbose tar unpack /Users/javiersolis/.npm/type-detect/1.0.0/package.tgz
+587 silly lockFile 16c5e91a-es-chai-node-modules-type-detect tar:///programming/proys/cloudino/server/Cloudino-Node-RED/node_modules/chai/node_modules/type-detect
+588 verbose lock tar:///programming/proys/cloudino/server/Cloudino-Node-RED/node_modules/chai/node_modules/type-detect /Users/javiersolis/.npm/16c5e91a-es-chai-node-modules-type-detect.lock
+589 silly lockFile ec0820ba-pm-type-detect-1-0-0-package-tgz tar:///Users/javiersolis/.npm/type-detect/1.0.0/package.tgz
+590 verbose lock tar:///Users/javiersolis/.npm/type-detect/1.0.0/package.tgz /Users/javiersolis/.npm/ec0820ba-pm-type-detect-1-0-0-package-tgz.lock
+591 silly gunzTarPerm modes [ '755', '644' ]
+592 silly gunzTarPerm modes [ '755', '644' ]
+593 silly gunzTarPerm modes [ '755', '644' ]
+594 silly gunzTarPerm extractEntry package.json
+595 silly gunzTarPerm extractEntry package.json
+596 silly gunzTarPerm extractEntry package.json
+597 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+598 silly gunzTarPerm extractEntry .npmignore
+599 silly gunzTarPerm extractEntry README.md
+600 silly gunzTarPerm extractEntry .npmignore
+601 silly gunzTarPerm extractEntry README.md
+602 silly gunzTarPerm extractEntry .npmignore
+603 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+604 silly gunzTarPerm extractEntry README.md
+605 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+606 silly gunzTarPerm extractEntry index.js
+607 silly gunzTarPerm extractEntry History.md
+608 silly gunzTarPerm extractEntry index.js
+609 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+610 silly gunzTarPerm extractEntry History.md
+611 silly gunzTarPerm modified mode [ 'History.md', 436, 420 ]
+612 silly gunzTarPerm extractEntry index.js
+613 silly gunzTarPerm extractEntry karma.conf.js
+614 silly gunzTarPerm extractEntry ReleaseNotes.md
+615 silly gunzTarPerm modified mode [ 'ReleaseNotes.md', 436, 420 ]
+616 silly gunzTarPerm extractEntry lib/type.js
+617 silly gunzTarPerm modified mode [ 'lib/type.js', 436, 420 ]
+618 silly gunzTarPerm extractEntry History.md
+619 silly gunzTarPerm extractEntry lib/eql.js
+620 silly lockFile e1f1a5a5-hai-node-modules-assertion-error tar:///programming/proys/cloudino/server/Cloudino-Node-RED/node_modules/chai/node_modules/assertion-error
+621 silly lockFile e1f1a5a5-hai-node-modules-assertion-error tar:///programming/proys/cloudino/server/Cloudino-Node-RED/node_modules/chai/node_modules/assertion-error
+622 silly lockFile aa0c7a8b-ssertion-error-1-0-1-package-tgz tar:///Users/javiersolis/.npm/assertion-error/1.0.1/package.tgz
+623 silly lockFile aa0c7a8b-ssertion-error-1-0-1-package-tgz tar:///Users/javiersolis/.npm/assertion-error/1.0.1/package.tgz
+624 info preinstall assertion-error@1.0.1
+625 verbose readDependencies using package.json deps
+626 verbose readDependencies using package.json deps
+627 silly resolved []
+628 verbose about to build /programming/proys/cloudino/server/Cloudino-Node-RED/node_modules/chai/node_modules/assertion-error
+629 info build /programming/proys/cloudino/server/Cloudino-Node-RED/node_modules/chai/node_modules/assertion-error
+630 verbose linkStuff [ false,
+630 verbose linkStuff   false,
+630 verbose linkStuff   false,
+630 verbose linkStuff   '/programming/proys/cloudino/server/Cloudino-Node-RED/node_modules/chai/node_modules' ]
+631 info linkStuff assertion-error@1.0.1
+632 verbose linkBins assertion-error@1.0.1
+633 verbose linkMans assertion-error@1.0.1
+634 verbose rebuildBundles assertion-error@1.0.1
+635 info install assertion-error@1.0.1
+636 info postinstall assertion-error@1.0.1
+637 silly lockFile 5811fdc1-dules-chai-node-modules-deep-eql tar:///programming/proys/cloudino/server/Cloudino-Node-RED/node_modules/chai/node_modules/deep-eql
+638 silly lockFile 5811fdc1-dules-chai-node-modules-deep-eql tar:///programming/proys/cloudino/server/Cloudino-Node-RED/node_modules/chai/node_modules/deep-eql
+639 silly lockFile 4987dcd8-s-npm-deep-eql-0-1-3-package-tgz tar:///Users/javiersolis/.npm/deep-eql/0.1.3/package.tgz
+640 silly lockFile 4987dcd8-s-npm-deep-eql-0-1-3-package-tgz tar:///Users/javiersolis/.npm/deep-eql/0.1.3/package.tgz
+641 silly lockFile 16c5e91a-es-chai-node-modules-type-detect tar:///programming/proys/cloudino/server/Cloudino-Node-RED/node_modules/chai/node_modules/type-detect
+642 silly lockFile 16c5e91a-es-chai-node-modules-type-detect tar:///programming/proys/cloudino/server/Cloudino-Node-RED/node_modules/chai/node_modules/type-detect
+643 info preinstall deep-eql@0.1.3
+644 silly lockFile ec0820ba-pm-type-detect-1-0-0-package-tgz tar:///Users/javiersolis/.npm/type-detect/1.0.0/package.tgz
+645 silly lockFile ec0820ba-pm-type-detect-1-0-0-package-tgz tar:///Users/javiersolis/.npm/type-detect/1.0.0/package.tgz
+646 verbose readDependencies using package.json deps
+647 verbose readDependencies using package.json deps
+648 info preinstall type-detect@1.0.0
+649 verbose cache add [ 'type-detect@0.1.1', null ]
+650 verbose cache add name=undefined spec="type-detect@0.1.1" args=["type-detect@0.1.1",null]
+651 verbose parsed url { protocol: null,
+651 verbose parsed url   slashes: null,
+651 verbose parsed url   auth: null,
+651 verbose parsed url   host: null,
+651 verbose parsed url   port: null,
+651 verbose parsed url   hostname: null,
+651 verbose parsed url   hash: null,
+651 verbose parsed url   search: null,
+651 verbose parsed url   query: null,
+651 verbose parsed url   pathname: 'type-detect@0.1.1',
+651 verbose parsed url   path: 'type-detect@0.1.1',
+651 verbose parsed url   href: 'type-detect@0.1.1' }
+652 verbose cache add name="type-detect" spec="0.1.1" args=["type-detect","0.1.1"]
+653 verbose parsed url { protocol: null,
+653 verbose parsed url   slashes: null,
+653 verbose parsed url   auth: null,
+653 verbose parsed url   host: null,
+653 verbose parsed url   port: null,
+653 verbose parsed url   hostname: null,
+653 verbose parsed url   hash: null,
+653 verbose parsed url   search: null,
+653 verbose parsed url   query: null,
+653 verbose parsed url   pathname: '0.1.1',
+653 verbose parsed url   path: '0.1.1',
+653 verbose parsed url   href: '0.1.1' }
+654 verbose addNamed [ 'type-detect', '0.1.1' ]
+655 verbose addNamed [ '0.1.1', '0.1.1' ]
+656 silly lockFile fa1359e4-type-detect-0-1-1 type-detect@0.1.1
+657 verbose lock type-detect@0.1.1 /Users/javiersolis/.npm/fa1359e4-type-detect-0-1-1.lock
+658 verbose readDependencies using package.json deps
+659 verbose readDependencies using package.json deps
+660 silly resolved []
+661 verbose about to build /programming/proys/cloudino/server/Cloudino-Node-RED/node_modules/chai/node_modules/type-detect
+662 info build /programming/proys/cloudino/server/Cloudino-Node-RED/node_modules/chai/node_modules/type-detect
+663 verbose linkStuff [ false,
+663 verbose linkStuff   false,
+663 verbose linkStuff   false,
+663 verbose linkStuff   '/programming/proys/cloudino/server/Cloudino-Node-RED/node_modules/chai/node_modules' ]
+664 info linkStuff type-detect@1.0.0
+665 verbose linkBins type-detect@1.0.0
+666 verbose linkMans type-detect@1.0.0
+667 verbose rebuildBundles type-detect@1.0.0
+668 verbose registry.get https://registry.npmjs.org/type-detect not expired, no request
+669 info install type-detect@1.0.0
+670 silly lockFile 52825bac-ype-detect-type-detect-0-1-1-tgz https://registry.npmjs.org/type-detect/-/type-detect-0.1.1.tgz
+671 verbose lock https://registry.npmjs.org/type-detect/-/type-detect-0.1.1.tgz /Users/javiersolis/.npm/52825bac-ype-detect-type-detect-0-1-1-tgz.lock
+672 info postinstall type-detect@1.0.0
+673 verbose addRemoteTarball [ 'https://registry.npmjs.org/type-detect/-/type-detect-0.1.1.tgz',
+673 verbose addRemoteTarball   '0ba5ec2a885640e470ea4e8505971900dac58822' ]
+674 info retry fetch attempt 1 at 16:41:30
+675 verbose fetch to= /var/folders/jn/jwly3_110js_sqqrmfgqqrd00000gp/T/npm-5232-Q6Ag6YdY/registry.npmjs.org/type-detect/-/type-detect-0.1.1.tgz
+676 http GET https://registry.npmjs.org/type-detect/-/type-detect-0.1.1.tgz
+677 http 200 https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.2.tgz
+678 http 200 https://registry.npmjs.org/glob/-/glob-3.2.3.tgz
+679 http 200 https://registry.npmjs.org/commander/-/commander-2.3.0.tgz
+680 silly lockFile a9f6a521-ry-npmjs-org-glob-glob-3-2-3-tgz https://registry.npmjs.org/glob/-/glob-3.2.3.tgz
+681 silly lockFile a9f6a521-ry-npmjs-org-glob-glob-3-2-3-tgz https://registry.npmjs.org/glob/-/glob-3.2.3.tgz
+682 silly lockFile 7fc225c9-glob-3-2-3 glob@3.2.3
+683 silly lockFile 7fc225c9-glob-3-2-3 glob@3.2.3
+684 silly lockFile 49eddbbb-p-escape-string-regexp-1-0-2-tgz https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.2.tgz
+685 silly lockFile 49eddbbb-p-escape-string-regexp-1-0-2-tgz https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.2.tgz
+686 verbose about to build /programming/proys/cloudino/server/Cloudino-Node-RED/node_modules/mocha
+687 verbose node_modules/mocha unbuild
+688 info preuninstall mocha@2.4.5
+689 silly lockFile 963ee3e8-escape-string-regexp-1-0-2 escape-string-regexp@1.0.2
+690 silly lockFile 963ee3e8-escape-string-regexp-1-0-2 escape-string-regexp@1.0.2
+691 http 200 https://registry.npmjs.org/growl/-/growl-1.8.1.tgz
+692 info uninstall mocha@2.4.5
+693 http 200 https://registry.npmjs.org/supports-color/-/supports-color-1.2.0.tgz
+694 verbose true,/programming/proys/cloudino/server/Cloudino-Node-RED/node_modules,/programming/proys/cloudino/server/Cloudino-Node-RED/node_modules unbuild mocha@2.4.5
+695 verbose /programming/proys/cloudino/server/Cloudino-Node-RED/node_modules/.bin,[object Object] binRoot
+696 info postuninstall mocha@2.4.5
+697 silly lockFile 374910b0-rg-commander-commander-2-3-0-tgz https://registry.npmjs.org/commander/-/commander-2.3.0.tgz
+698 silly lockFile 374910b0-rg-commander-commander-2-3-0-tgz https://registry.npmjs.org/commander/-/commander-2.3.0.tgz
+699 silly lockFile 14f83df2-commander-2-3-0 commander@2.3.0
+700 silly lockFile 14f83df2-commander-2-3-0 commander@2.3.0
+701 silly lockFile 765dc851-s-color-supports-color-1-2-0-tgz https://registry.npmjs.org/supports-color/-/supports-color-1.2.0.tgz
+702 silly lockFile 765dc851-s-color-supports-color-1-2-0-tgz https://registry.npmjs.org/supports-color/-/supports-color-1.2.0.tgz
+703 silly lockFile 71c863d2-supports-color-1-2-0 supports-color@1.2.0
+704 silly lockFile 71c863d2-supports-color-1-2-0 supports-color@1.2.0
+705 silly lockFile 2d43441e--npmjs-org-growl-growl-1-8-1-tgz https://registry.npmjs.org/growl/-/growl-1.8.1.tgz
+706 silly lockFile 2d43441e--npmjs-org-growl-growl-1-8-1-tgz https://registry.npmjs.org/growl/-/growl-1.8.1.tgz
+707 silly lockFile 76096383-growl-1-8-1 growl@1.8.1
+708 silly lockFile 76096383-growl-1-8-1 growl@1.8.1
+709 error Error: EACCES, mkdir '/Users/javiersolis/.npm/glob/3.2.3'
+709 error  { [Error: EACCES, mkdir '/Users/javiersolis/.npm/glob/3.2.3']
+709 error   errno: 3,
+709 error   code: 'EACCES',
+709 error   path: '/Users/javiersolis/.npm/glob/3.2.3',
+709 error   parent: 'mocha' }
+710 error Please try running this command again as root/Administrator.
+711 error System Darwin 15.2.0
+712 error command "node" "/usr/local/bin/npm" "install" "mocha" "chai" "--save-dev"
+713 error cwd /programming/proys/cloudino/server/Cloudino-Node-RED
+714 error node -v v0.10.30
+715 error npm -v 1.4.21
+716 error path /Users/javiersolis/.npm/glob/3.2.3
+717 error code EACCES
+718 error errno 3
+719 error stack Error: EACCES, mkdir '/Users/javiersolis/.npm/glob/3.2.3'
+720 verbose exit [ 3, true ]
