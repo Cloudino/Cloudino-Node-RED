@@ -21,7 +21,7 @@ Check out http://nodered.org/docs/getting-started/ for full instructions on gett
 started on Node-RED
 
 1. `sudo npm install -g node-red`
-2. `sudo npm install -g node-red-cloudino`
+2. `sudo npm install -g node-red-contrib-cloudino`
 2. `node-red`
 3. Open <http://localhost:1880>
 
