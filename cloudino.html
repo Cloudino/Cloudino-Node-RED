@@ -1,0 +1,145 @@
+<!--
+  Copyright 2013,2014 IBM Corp.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<script type="text/x-red" data-template-name="onMessage">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="">
+    </div>
+    <div class="form-row">
+        <label for="node-input-broker"><i class="fa fa-globe"></i> Server</label>
+        <input type="text" id="node-input-broker">
+    </div>
+    <div class="form-row">
+        <label for="node-input-device"><i class="fa fa-cube"></i> Device</label>
+        <input type="text" id="node-input-device" placeholder="">
+    </div>
+    <div class="form-row">
+        <label for="node-input-topic"><i class="fa fa-tasks"></i> Topic</label>
+        <input type="text" id="node-input-topic" placeholder="">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="onMessage">
+    <p>Cloudino onMessage node. Connects to the server and subscribes to the specified device and topic. The device and topic may be blank to subscribe to any.</p>
+    <p>Outputs an object called <b>msg</b> containing <b>msg.topic, msg.payload.</p>
+    <p><b>msg.payload</b> is a string.</p>
+</script>
+
+<script type="text/javascript">
+    RED.nodes.registerType('onMessage',{
+        category: 'Cloudino',
+        defaults: {
+            name: {value:""},
+            topic: {value:"",required:false},
+            device: {value:"",required:false},
+            broker: {type:"cloudino-config", required:true}
+        },
+        color:"#B68181",
+        inputs:0,
+        outputs:1,
+        icon: "bridge.png",
+        label: function() {
+            return this.name||this.topic||"onMessage";
+        },
+        labelStyle: function() {
+            return this.name?"node_label_italic":"";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="postMessage">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="">
+    </div>    
+    <div class="form-row">
+        <label for="node-input-broker"><i class="fa fa-globe"></i> Server</label>
+        <input type="text" id="node-input-broker">
+    </div>
+    <div class="form-row">
+        <label for="node-input-device"><i class="fa fa-cube"></i> Device</label>
+        <input type="text" id="node-input-device" placeholder="">
+    </div>
+    <div class="form-row">
+        <label for="node-input-topic"><i class="fa fa-tasks"></i> Topic</label>
+        <input type="text" id="node-input-topic" placeholder="">
+    </div>
+    <div class="form-tips"></div>
+</script>
+
+<script type="text/x-red" data-help-name="postMessage">
+    <p>Cloudino postMessage to a Server and publishes <b>msg.payload</b> either to the <b>msg.topic</b> and <b>msg.device</b> or to the topic and device specified in the edit window. The value in the edit window has precedence.</p>
+    <p>If <b>msg.payload</b> contains an object it will be stringified before being sent.</p>
+</script>
+
+<script type="text/javascript">
+    RED.nodes.registerType('postMessage',{
+        category: 'Cloudino',
+        defaults: {
+            name: {value:""},
+            topic: {value:""},
+            device: {value:""},
+            broker: {type:"cloudino-config", required:true}
+        },
+        color:"#B68181",
+        inputs:1,
+        outputs:0,
+        icon: "bridge.png",
+        align: "right",
+        label: function() {
+            return this.name||this.topic||"postMessage";
+        },
+        labelStyle: function() {
+            return this.name?"node_label_italic":"";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="cloudino-config">
+    <div class="form-row node-input-broker">
+        <label for="node-config-input-broker"><i class="fa fa-globe"></i> Server</label>
+        <input class="input-append-left" type="text" id="node-config-input-broker" placeholder="localhost" style="width: 40%;" >
+        <label for="node-config-input-port" style="margin-left: 10px; width: 35px; "> Port</label>
+        <input type="text" id="node-config-input-port" placeholder="80" style="width:45px">
+    </div>
+    <div class="form-row">
+        <label for="node-config-input-user"><i class="fa fa-user"></i> Username</label>
+        <input type="text" id="node-config-input-user">
+    </div>
+    <div class="form-row">
+        <label for="node-config-input-password"><i class="fa fa-lock"></i> Password</label>
+        <input type="password" id="node-config-input-password">
+    </div>
+</script>
+
+<script type="text/javascript">
+    RED.nodes.registerType('cloudino-config',{
+        category: 'config',
+        defaults: {
+            broker: {value:"",required:true},
+            port: {value:1883,required:true,validate:RED.validators.number()},
+        },
+        credentials: {
+            user: {type:"text"},
+            password: {type: "password"}
+        },
+        label: function() {
+            if (this.broker == "") { this.broker = "localhost"; }
+            return this.broker+":"+this.port;
+        }
+    });
+</script>
