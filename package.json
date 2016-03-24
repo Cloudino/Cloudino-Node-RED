@@ -2,17 +2,8 @@
   "name": "Cloudino-Node-RED",
   "version": "0.1.0",
   "description": "Cloudino Node-RED Integration",
-  "main": "index.js",
-  "directories": {
-    "example": "examples",
-    "test": "test"
-  },
   "dependencies": {
-    "chai": "^3.5.0"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "websocket": "^1.0.22"
   },
   "repository": {
     "type": "git",
@@ -22,6 +13,11 @@
     "Cloudino",
     "Node-Red"
   ],
+  "node-red": {
+    "nodes": {
+      "cloudino": "cloudino.js"
+    }
+  },  
   "author": "Javier Solis",
   "license": "ISC",
   "bugs": {
