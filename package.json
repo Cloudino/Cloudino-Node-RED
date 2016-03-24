@@ -1,6 +1,6 @@
 {
-  "name": "Cloudino-Node-RED",
-  "version": "0.1.0",
+  "name": "node-red-cloudino",
+  "version": "1.0.0",
   "description": "Cloudino Node-RED Integration",
   "dependencies": {
     "websocket": "^1.0.22"
