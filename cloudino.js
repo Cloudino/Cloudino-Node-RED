@@ -159,7 +159,7 @@ module.exports = function(RED) {
                     msg.topic = node.topic;
                 }
                 //console.log("post:",msg);
-                node.brokerConfig.client.connection.sendUTF(JSON.stringify({type:"post2Device",tid:msg._msgid,device:node.device,topic:msg.topic,msg:JSON.stringify(msg.payload)})); 
+                node.brokerConfig.client.connection.sendUTF(JSON.stringify({type:"post2Device",tid:msg._msgid,device:node.device,topic:msg.topic,msg:""+msg.payload})); 
             });
 
         } else {
