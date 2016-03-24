@@ -1,5 +1,5 @@
 {
-  "name": "node-red-cloudino",
+  "name": "node-red-contrib-cloudino",
   "version": "1.0.0",
   "description": "Cloudino Node-RED Integration",
   "dependencies": {
